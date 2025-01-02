@@ -1,3 +1,4 @@
+## NOTICE: Sunrise's source code will not be available until Version 0.2 releases on March 2, 2025. You can however still download the game from this link!
 ### NOTICE: If you're here for support relating to Sunrise that has nothing to do with the source code, you can contact us instead: https://www.wushroomstudios.com/#contact
 
 # Sunrise
