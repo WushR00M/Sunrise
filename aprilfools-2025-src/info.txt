@@ -1,0 +1,12 @@
+Hello! This is the source code for my wonderful April Fools joke of 2025. Promoting a new Sunrise version already? That's right!
+Sunrise has downgraded (I guess >_>), and now, we are proud to announce, our first console release, for the 1989 Sega Genesis console!
+
+Play 1 level and that's it! Shut up and enjoy it!
+
+Ok, obviously this is an April Fools joke, but it's fun none the less. Thought I should practice my assembly programming skills by creating a homebrew for the Sega Genesis.
+The ROM is available for download in the Releases page and on WushR00M Studios' website. The source code is also available here. Here's to April Fools 2026! Who knows what could happen by then...
+
+Special thanks to:
+- Vladikomper: Error Handler & MegaPCM
+- PlutieDev: Variables and Macros, made things a little easier
+- Sunrise's Team: for inspiring this homebrew! You guys (including myself haha) are awesome!!
