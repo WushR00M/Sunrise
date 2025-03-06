@@ -5,7 +5,7 @@
 Sunrise is a multiplayer game actively being worked on by me and the team at WushR00M Studios.
 
 ## Getting Started
-To open the project file, launch GameMaker and open up the "sunrise.yyp" file. You can now compile Sunrise directly from source by clicking the "Play" / "Test" button.
+To open the project file, launch GameMaker and import the downloaded resources file. You can then compile Sunrise by clicking the "Play" / "Test" button.
 
 ## Contributing
 If you would like to contribute to the development of Sunrise as in fixing a bug, improving a feature, or adding a brand new feature, you can follow these steps:
