@@ -7,7 +7,7 @@ Sunrise is a multiplayer game actively being worked on by me and the team at Wus
 ![](https://pride-badges.pony.workers.dev/static/v1?label=transware&labelColor=%23555&stripeWidth=8&stripeColors=5BCEFA%2CF5A9B8%2CFFFFFF%2CF5A9B8%2C5BCEFA)
 
 ## Getting Started
-To open the project file, launch GameMaker and import the downloaded resources file. You can then compile Sunrise by clicking the "Play" / "Test" button.
+To open the project file, launch GameMaker and import the downloaded resources file. You can then compile Sunrise by clicking the "Play" / "Test" button. Compiling the game from any other source will halt the game upon boot (anti-piracy, reproduction, etc.).
 
 ## Contributing
 If you would like to contribute to the development of Sunrise as in fixing a bug, improving a feature, or adding a brand new feature, you can follow these steps:
