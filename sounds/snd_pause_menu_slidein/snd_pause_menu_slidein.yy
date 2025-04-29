@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_pause_menu_slidein",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.356712,
+  "name":"snd_pause_menu_slidein",
+  "parent":{
+    "name":"pause_menu",
+    "path":"folders/Sounds/sounds/gameplay/pause_menu.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_pause_menu_slidein.ogg",
+  "type":0,
+  "volume":1.0,
+}

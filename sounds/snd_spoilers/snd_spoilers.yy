@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_spoilers",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":27.300997,
+  "name":"snd_spoilers",
+  "parent":{
+    "name":"misc",
+    "path":"folders/Sounds/sounds/misc.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_spoilers.mp3",
+  "type":0,
+  "volume":1.0,
+}
