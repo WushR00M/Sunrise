@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_backwards_p",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":104.44898,
+  "name":"mus_backwards_p",
+  "parent":{
+    "name":"ost",
+    "path":"folders/Sounds/ost.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_backwards_p.mp3",
+  "type":0,
+  "volume":1.0,
+}

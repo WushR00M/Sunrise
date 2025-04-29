@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_b_rank_orhigher",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.73142856,
+  "name":"snd_b_rank_orhigher",
+  "parent":{
+    "name":"level_results",
+    "path":"folders/Sounds/sounds/gameplay/level_results.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_b_rank_orhigher.wav",
+  "type":0,
+  "volume":1.0,
+}
