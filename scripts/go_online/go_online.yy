@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"go_online",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"go_online",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
