@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ssave_config_level",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ssave_config_level",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_scredit_master",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_scredit_master",
+  "parent":{
+    "name":"script_editor_lvlmaker",
+    "path":"folders/Scripts/script_editor_lvlmaker.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
