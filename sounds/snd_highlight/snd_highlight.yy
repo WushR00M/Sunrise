@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_highlight",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.7562585,
+  "name":"snd_highlight",
+  "parent":{
+    "name":"main_menu",
+    "path":"folders/Sounds/sounds/main_menu.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_highlight.mp3",
+  "type":0,
+  "volume":1.0,
+}
