@@ -1,4 +1,4 @@
-## NOTICE: Sunrise's source code will not be available until Version 0.2a releases. You can however still download the game from this link!
+## NOTICE: Sunrise's source code is currently being uploaded in waves due to file size limits and GitHub's servers being given a rest. Some things may not be present!
 ### NOTICE: If you're here for support relating to Sunrise that has nothing to do with the source code, you can contact us instead: https://www.wushroomstudios.com/#contact
 
 # Sunrise
