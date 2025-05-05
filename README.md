@@ -15,3 +15,9 @@ If you would like to contribute to the development of Sunrise as in fixing a bug
 5. Submit a pull request
 
 If you're adding a screen that requires any new resources (sprites, menus, rooms, etc.), you must provide those resources or your pull request will be denied instantly. All scripts will be throughly checked for backdoors, secrets, and more.
+
+## Special Thanks to Contributers
+
+<a href = "https://github.com/WushR00M-Studios/Sunrise/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo=WushR00M-Studios/Sunrise"/>
+</a>
