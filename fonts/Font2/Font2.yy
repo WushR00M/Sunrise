@@ -119,8 +119,8 @@
   "maintainGms1Font":false,
   "name":"Font2",
   "parent":{
-    "name":"Sunrise",
-    "path":"Sunrise.yyp",
+    "name":"Fonts",
+    "path":"folders/Fonts.yy",
   },
   "pointRounding":0,
   "ranges":[
