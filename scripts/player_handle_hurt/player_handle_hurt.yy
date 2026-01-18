@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"player_handle_hurt",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"player_handle_hurt",
+  "parent":{
+    "name":"PlayerMisc",
+    "path":"folders/Player/PlayerMisc.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

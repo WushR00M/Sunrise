@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_select_yes",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.1043991,
+  "exportDir":"",
+  "name":"snd_select_yes",
+  "parent":{
+    "name":"main_menu",
+    "path":"folders/Resources/Sounds/Effects/main_menu.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_select_yes.mp3",
+  "volume":1.0,
+}

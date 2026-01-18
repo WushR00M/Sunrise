@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"player_water",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"player_water",
+  "parent":{
+    "name":"PlayerMisc",
+    "path":"folders/Player/PlayerMisc.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

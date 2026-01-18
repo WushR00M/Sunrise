@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"mus_pilcrow",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":104.44898,
+  "exportDir":"",
+  "name":"mus_pilcrow",
+  "parent":{
+    "name":"Soundtrack",
+    "path":"folders/Resources/Sounds/Soundtrack.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_pilcrow.mp3",
+  "volume":1.0,
+}

@@ -1,0 +1,1 @@
+global.storymenu_deletemode = false;

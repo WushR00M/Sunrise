@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_musicnote_collect_plus3",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":3.9776871,
+  "exportDir":"",
+  "name":"snd_musicnote_collect_plus3",
+  "parent":{
+    "name":"object",
+    "path":"folders/Resources/Sounds/Effects/gameplay/object.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_musicnote_collect_plus3.wav",
+  "volume":1.0,
+}

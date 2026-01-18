@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Scr_GameJolt_Success",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Scr_GameJolt_Success",
+  "parent":{
+    "name":"CoreSystem",
+    "path":"folders/Resources/Extensions/GameJolt/CoreSystem.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

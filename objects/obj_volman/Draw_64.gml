@@ -1,0 +1,1 @@
+draw_sprite(spr_volume_slider, volume, x, y);

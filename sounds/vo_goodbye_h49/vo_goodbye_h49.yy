@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"vo_goodbye_h49",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":6.2506804,
+  "exportDir":"",
+  "name":"vo_goodbye_h49",
+  "parent":{
+    "name":"Voices",
+    "path":"folders/Resources/Sounds/Voices.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"vo_goodbye_h49.mp3",
+  "volume":1.0,
+}

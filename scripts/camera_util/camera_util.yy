@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"camera_util",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"camera_util",
+  "parent":{
+    "name":"Utils",
+    "path":"folders/Utils.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

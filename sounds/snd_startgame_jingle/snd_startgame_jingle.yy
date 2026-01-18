@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_startgame_jingle",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":11.467755,
+  "exportDir":"",
+  "name":"snd_startgame_jingle",
+  "parent":{
+    "name":"misc",
+    "path":"folders/Resources/Sounds/Effects/misc.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_startgame_jingle.mp3",
+  "volume":1.0,
+}

@@ -1,0 +1,2 @@
+global.bits++;
+collect = true;

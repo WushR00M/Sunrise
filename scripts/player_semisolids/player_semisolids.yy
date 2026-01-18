@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"player_semisolids",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"player_semisolids",
+  "parent":{
+    "name":"PlayerMovement",
+    "path":"folders/Player/PlayerMovement.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,1 @@
+instance_create_layer(x, x, "Objects", obj_col1);

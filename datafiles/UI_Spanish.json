@@ -1,0 +1,72 @@
+    {
+
+			"opt_photosen": 		"Modo fotosensible",
+			"opt_fullscreen": 		"Pantalla completa",
+			"opt_borderless": 		"Pantalla completa sin bordes",
+			"opt_voice": 			"Chat de voz",
+			"opt_autosave": 		"Guardar automáticamente",
+			"opt_discordrp": 		"Discord Rich Presence",
+			"opt_colorblind": 		"Accesibilidad para personas daltónicas",
+			"opt_videopb":			"Reproducción de vídeo",
+			"opt_showfps": 			"Mostrar FPS",
+			"opt_telemetry": 		"Telemetria",
+			"opt_errorrep": 		"Informe de errors",
+			
+			"btn_credits": 			"Créditos",
+			"btn_language": 		"Establecer idioma del juego",
+			"btn_datapacks": 		"Datapacks",
+			"btn_clearsave": 		"Eliminar todos los datos guardados",
+			
+			"header_pref":			"Preferencias",
+			"header_system":		"Sistema y Accesibilidad",
+			"header_main":			"Mantenimiento",
+			
+
+			"add_user": 			"Agregar usuarior",
+			"guest_user": 			"La visita",
+			
+
+			"com_play":				"Jugar",
+			"com_startgame": 		"Iniciar juego",
+			"com_select": 			"Continuar",
+			"com_back": 			"Volver",
+			"com_navigation": 		"Navegar por",
+			"com_on": 				"Activar",
+			"com_off": 				"Desactivada",
+			"com_accept": 			"Aceptar",
+			"com_decline": 			"Rechazar",
+			"com_ok": 				"Ok",
+			"com_cancel": 			"Cancelar",
+			"com_yes": 				"Si",
+			"com_no": 				"No",
+			
+
+			"dialog_exitgame": 			"¿Estás segura de que quieres salir del juego?",
+			"dialog_exitgame_true": 	"¡Sí, déjame salir ahora!",
+			"dialog_exitgame_false": 	"Sólo un poquito más...",
+			
+			"dialog_exitcreate": 		"¡Tienes cambios sin guardar! ¿Continuar?",
+			"dialog_exitcreate_true": 	"Guardar y salir",
+			"dialog_exitcreate_nosv": 	"Continuar sin guardar",
+			"dialog_exitcreate_false": 	"¡Ups! No...",
+			
+			"dialog_renamelevel": 		"Introduce un nuevo nombre para tu nivel...",
+			
+
+			"create_testlvl":		"Nivel de prueba",
+			"create_stoptest":		"Editar nivel",
+			
+			"toolbar_newlvl":		"Nueva",
+			"toolbar_openlvl":		"Abierta",
+			"toolbar_savelvl":		"Guardar",
+			"toolbar_savelvl_as":	"Guardar como...",
+			"toolbar_exit":			"Salir",
+			
+			"toolbar_file":			"Archivo",
+			"toolbar_edit":			"Editar",
+			"toolbar_lvlopt":		"Opciones",
+			
+
+			"loading_msg":			"Cargando..."
+		}
+    }
