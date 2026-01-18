@@ -27,7 +27,7 @@
   ],
   "name":"spr_remove_ads_btn",
   "nineSlice":null,
-  "origin":0,
+  "origin":2,
   "parent":{
     "name":"Ads",
     "path":"folders/Resources/Sprites/UI/MobileExclusive/Ads.yy",
@@ -81,7 +81,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
+    "xorigin":256,
     "yorigin":0,
   },
   "swatchColours":null,

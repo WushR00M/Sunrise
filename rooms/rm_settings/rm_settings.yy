@@ -29,8 +29,8 @@
   ],
   "name":"rm_settings",
   "parent":{
-    "name":"settings",
-    "path":"folders/Screens/Menus/settings.yy",
+    "name":"Settings",
+    "path":"folders/Screens/Menus/Settings.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

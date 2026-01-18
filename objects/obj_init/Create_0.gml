@@ -9,7 +9,7 @@ global.gamejoltlogin1 = false;
 global.gamejoltlogin2 = false;
 global.online_user = false;
 global.setup = false;
-global.mobile = false;
+global.mobile = true;
 global.haptics = false;
 global.server_socket = "";
 global.client_sockets = "";
@@ -64,8 +64,6 @@ audio_master_gain(0.5);
 
 if os_type == os_android
 	global.mobile = true;
-else
-	global.mobile = false;
 
 	if InputPlayerUsingGamepad(0) {
 		var _type = InputPlayerGetGamepadType(_player_index);

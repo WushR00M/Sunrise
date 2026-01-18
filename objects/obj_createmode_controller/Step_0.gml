@@ -1,30 +1,38 @@
 try {
-	if global.cmmode == 1 {
-		if global.cmplay == false && InputPressed(INPUT_VERB.ACTION) {
+	if !global.mobile {
+		if global.cmmode == 1 {
+			if global.cmplay == false && InputPressed(INPUT_VERB.ACTION) {
+				global.cmselection = 0;
+				if !instance_exists(obj_instance_list)
+					instance_create_layer(0, 0, "UI", obj_instance_list);
+			}
+		} else if global.cmmode == 2 {
+		
+		} else if global.cmmode == 3 {
+			
+		}
+	
+		if device_mouse_y_to_gui(0) <= 32
+			global.cmselection = 0;
+			if instance_exists(obj_lasso_tool)
+				instance_destroy(obj_lasso_tool);
+		if keyboard_check_pressed(ord("1")) {
+			global.cmmode = 1;
+		} else if keyboard_check_pressed(ord("2")) {
+			global.cmmode = 2;
+			if !instance_exists(obj_lasso_tool)
+				instance_create_layer(mouse_x, mouse_y, "UI", obj_lasso_tool);
+		} else if keyboard_check_pressed(ord("3")) {
+			global.cmmode = 3;
+			if instance_exists(obj_lasso_tool)
+				instance_destroy(obj_lasso_tool);
+		}
+	} else {
+		if mouse_check_button_pressed(mb_right) && (device_mouse_y_to_gui(0) >= view_yport[0] - 256) {
 			global.cmselection = 0;
 			if !instance_exists(obj_instance_list)
 				instance_create_layer(0, 0, "UI", obj_instance_list);
 		}
-	} else if global.cmmode == 2 {
-		
-	} else if global.cmmode == 3 {
-			
-	}
-	
-	if device_mouse_y_to_gui(0) <= 32
-		global.cmselection = 0;
-		if instance_exists(obj_lasso_tool)
-			instance_destroy(obj_lasso_tool);
-	if keyboard_check_pressed(ord("1")) {
-		global.cmmode = 1;
-	} else if keyboard_check_pressed(ord("2")) {
-		global.cmmode = 2;
-		if !instance_exists(obj_lasso_tool)
-			instance_create_layer(mouse_x, mouse_y, "UI", obj_lasso_tool);
-	} else if keyboard_check_pressed(ord("3")) {
-		global.cmmode = 3;
-		if instance_exists(obj_lasso_tool)
-			instance_destroy(obj_lasso_tool);
 	}
 	
 } catch(ex) {

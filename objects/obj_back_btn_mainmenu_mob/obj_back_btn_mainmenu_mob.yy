@@ -12,8 +12,8 @@
   "name":"obj_back_btn_mainmenu_mob",
   "overriddenProperties":[],
   "parent":{
-    "name":"mobile",
-    "path":"folders/Objects/UI/BackButtons/mobile.yy",
+    "name":"MobileExclusive",
+    "path":"folders/Objects/UI/BackButtons/MobileExclusive.yy",
   },
   "parentObjectId":null,
   "persistent":false,
