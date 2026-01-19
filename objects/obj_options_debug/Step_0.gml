@@ -31,6 +31,8 @@ for (var i = 0; i < array_length(options); i++) {
 				description_text = "Shows a display on your Discord profile of what you're doing on Sunrise currently";
 			else if item.name == "Credits"
 				description_text = "See who was behind this game!";
+			else if item.name == "Legacy Title Sequence"
+				description_text = "Reverts the changes made to the Main Menu and Title Screen in v2026.4.0";
 			else
 				description_text = "Manage Sunrise's various Settings here!";
 			
@@ -75,21 +77,14 @@ if global.inputtype == false {
 	        item.value = !item.value;
 	        save_options();
 			
-			if (item.name == global.opt_fullscreen && item.value) {
-				window_set_fullscreen(true);
-				save_options();
-			} else if (item.name == global.opt_fullscreen && !item.value) {
-				window_set_fullscreen(false);
-				save_options();
+			if (item.name == "Legacy Title Sequence") {
+				var btns = [
+					{label:"Restart Sunrise", action: dummyscript()},
+					{label:"Actually, nevermind!",  action: dummyscript()},
+				];
+				scr_show_dialog("This requires a game restart!", spr_dialog_warning, btns);
 			}
 			
-			if (item.name == global.opt_borderless && item.value) {
-				window_enable_borderless_fullscreen(true);
-				save_options();
-			} else if (item.name == global.opt_borderless && !item.value) {
-				window_enable_borderless_fullscreen(false);
-				save_options();
-			}
 	    } else if (item.type == "slider") {
 	        dragging_slider = hovered_item;
 	    } else if (item.type == "dropdown") {
@@ -165,27 +160,12 @@ scroll_y = lerp(scroll_y, scroll_target, 0.25);
 	        item.value = !item.value;
 	        save_options();
 			
-			if (item.name == global.opt_fullscreen && item.value) {
-				window_set_fullscreen(true);
-				save_options();
-			} else if (item.name == global.opt_fullscreen && !item.value) {
-				window_set_fullscreen(false);
-				save_options();
-			}
-			
-			if (item.name == global.opt_borderless && item.value) {
-				window_enable_borderless_fullscreen(true);
-				save_options();
-			} else if (item.name == global.opt_borderless && !item.value) {
-				window_enable_borderless_fullscreen(false);
-				save_options();
-			}
-			
-			if (item.name == "Show FPS") {
-				if global.op_showfps == 0
-					global.op_showfps = 1;
-				else
-					global.op_showfps = 0;
+			if (item.name == "Legacy Title Sequence") {
+				var btns = [
+					{label:"Restart Sunrise", action: dummyscript()},
+					{label:"Actually, nevermind!",  action: dummyscript()},
+				];
+				scr_show_dialog("This requires a game restart!", spr_dialog_warning, btns);
 			}
 	    } else if (item.type == "slider") {
 	        dragging_slider = hovered_item;

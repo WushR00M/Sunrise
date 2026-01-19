@@ -9,13 +9,12 @@ global.gamejoltlogin1 = false;
 global.gamejoltlogin2 = false;
 global.online_user = false;
 global.setup = false;
-global.mobile = true;
-global.haptics = false;
+global.titleanim = false;
+global.mobile = false;
 global.server_socket = "";
 global.client_sockets = "";
 global.client_socket = "";
 global.party_list = "";
-global.version = 3;
 global.op_language = 0;
 global.playtestfin = false;
 global.exiting = false;
@@ -24,6 +23,36 @@ global.input_finished = false;
 global.controllertype = 0;
 global.current_user = "Guest";
 global.setup = true;
+
+	global.op_discordrp = false;
+	global.op_showhud = false;
+	global.op_progdisp = false;
+	global.op_cardskip = false;
+	global.op_keystroke = false;
+	global.op_bgdimming = false;
+	global.op_leaderboard = false;
+	global.op_casualmode = false;
+	global.op_collidetag = false;
+	global.op_pathfind = false;
+	global.op_debughud = false;
+	global.op_fullscreen = false;
+	global.op_borderless = false;
+	global.op_letterbox = false;
+	global.op_shaders = false;
+	global.op_colorblind = false;
+	global.op_titlesnow = false;
+	global.op_parallax = false;
+	global.op_titlecolors = false;
+	global.op_jpegscreenie = false;
+	global.op_showfps = false;
+	global.op_tablet = false;
+	global.op_rawinput = false;
+	global.op_virtkey = false;
+	global.op_haptics = false;
+	global.op_buttonguide = false;
+	global.op_lightbar = false;
+	global.op_japcontrol = false;
+	global.op_legacytitle = false;
 
 global.object_timer = 0;
 global.window_width = window_get_width();
@@ -50,7 +79,6 @@ global.hud_number = font_add_sprite(spr_hudnumbers, ord("0"), false, 0);
 
 global.openfromfile = "";
 
-window_set_cursor(cr_hourglass);
 
 #macro WINDOW_WIDTH 1366
 #macro WINDOW_HEIGHT 768
@@ -101,6 +129,7 @@ if file_exists("settings.ini") {
 	ini_open("settings.ini")
 	
 	global.op_discordrp = ini_read_real("options", "Discord Rich Presence", 0);
+	global.op_legacytitle = ini_read_real("options", "Legacy Title Sequence", 0);
 	global.op_showhud = ini_read_real("options", "Show HUD", 0);
 	global.op_progdisp = ini_read_real("options", "Progress Display", 0);
 	global.op_cardskip = ini_read_real("options", "Skip Title Cards", 0);

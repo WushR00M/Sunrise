@@ -287,64 +287,73 @@ if (mouse_clicked) {
             case "Edit":
                 switch (item_name) {
                     case "Undo":
-						show_debug_message("Action: Undo");
+						toast_create("This feature is coming soon, stand by!", 1);
 					break;
 					
                     case "Redo":
-						show_debug_message("Action: Redo");
+						toast_create("This feature is coming soon, stand by!", 1);
 					break;
 					
                     case "Cut":
-						show_debug_message("Action: Cut");
+						toast_create("This feature is coming soon, stand by!", 1);
 					break;
 					
                     case "Copy":
-						show_debug_message("Action: Copy");
+						toast_create("This feature is coming soon, stand by!", 1);
 					break;
 					
                     case "Paste":
-						show_debug_message("Action: Paste");
+						toast_create("This feature is coming soon, stand by!", 1);
 					break;
                 }
 			break;
 			
 			case "Project":
                 switch (item_name) {
-                    case "Set Name":
-						obj_cm_camera.cancelout = true;
-						scr_show_input_dialog(
-						    "Enter a new name for your level!",
-						    spr_dialog_rename
-						);
-
-						if (global.input_result != "") {
-						    show_debug_message("User typed: " + global.input_result);
-							global.cmname = global.input_result;
-							global.input_result = "";
-						} else {
-							toast_create("FAILURE: The name entered was invalid!", 4);	
-						}
-					break; 
-					
 					case "Run Level":
-						instance_create_depth(0, 0, -1, obj_fadein_routine_titlecard_cm);
+						if global.cmworkspace
+							instance_create_depth(0, 0, -1, obj_fadein_routine_titlecard_cm);
+						else
+							toast_create("You can't playtest whilst in Setup view!", 3);
 					break;
 					
 					case "Stop Level":
-						global.cmplay = false;
-						instance_create_depth(0, 0, -1, obj_flashout_routine);
+						if global.cmworkspace {
+							if global.cmplay == true {
+								global.cmplay = false;
+								instance_create_depth(0, 0, -1, obj_flashout_routine);
+							} else {
+								toast_create("No playtest is active currently!", 3);
+							}
+						} else {
+							toast_create("You can't playtest whilst in Setup view!", 3);	
+						}
 					break;
 					
 					case "Debug Level":
-						toast_create("placeholder", 1);
+						toast_create("This feature is coming soon, stand by!", 1);
 					break;
 					
 					case "Export":
-						toast_create("placeholder", 1);
+						toast_create("This feature is coming soon, stand by!", 1);
+					break;
+                }
+			break;
+			
+			case "View":
+				switch (item_name) {
+					case "Setup":
+						if global.cmworkspace {
+							global.cmworkspace = false;
+							global.cmsetup = true;
+						}
 					break;
 					
-					case "Set Theme":
-						toast_create("placeholder", 1);
+					case "Workspace":
+						if global.cmsetup {
+							global.cmworkspace = true;
+							global.cmsetup = false;
+						}
 					break;
                 }
 			break;
@@ -352,7 +361,7 @@ if (mouse_clicked) {
             case "Help":
                 switch (item_name) {
                     case "Report a Bug":
-                        url_open("https://codeberg.org/WushR00M-Studios/Sunrise/issues/new");
+                        url_open("https://github.com/WushR00M/Sunrise/issues/new");
                         toast_create("You are being redirected. If the link doesn't open, check your firewall or browser settings!", 1);
                     break;
 					
@@ -362,7 +371,7 @@ if (mouse_clicked) {
                     break;
 					
 					case "Online Manual":
-                        toast_create("The online manual is coming soon...", 1);
+                        toast_create("This feature is coming soon, stand by!", 1);
                     break;
                 }
             break;

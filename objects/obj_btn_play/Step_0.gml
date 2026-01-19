@@ -1,4 +1,5 @@
-y = lerp(y, 624, 0.05);
+if global.titleanim
+	y = lerp(y, 624, 0.05);
 
 if hover == true {
 	image_xscale = lerp(image_xscale, 1.1, 0.05);

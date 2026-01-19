@@ -14,6 +14,9 @@ function init_var() {
 	
 	global.cmtheme = "Plains"
 	global.cmtime = "Day"
+	
+	global.cmsetup = true;
+	global.cmworkspace = false;
 }
 
 function lasso_get_instances(_l, _t, _r, _b)

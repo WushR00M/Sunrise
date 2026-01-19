@@ -12,8 +12,8 @@
   "name":"obj_sunrise_logo",
   "overriddenProperties":[],
   "parent":{
-    "name":"Boot",
-    "path":"folders/Objects/Boot.yy",
+    "name":"Legacy",
+    "path":"folders/Objects/Boot/Legacy.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"bg_sunrise_screen_logo_only",
-    "path":"sprites/bg_sunrise_screen_logo_only/bg_sunrise_screen_logo_only.yy",
+    "name":"spr_sunriselogo",
+    "path":"sprites/spr_sunriselogo/spr_sunriselogo.yy",
   },
   "spriteMaskId":null,
   "visible":true,

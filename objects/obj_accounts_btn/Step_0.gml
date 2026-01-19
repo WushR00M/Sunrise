@@ -1,4 +1,5 @@
-x = lerp(x, 0, 0.05);
+if global.titleanim
+	x = lerp(x, 0, 0.05);
 
 if global.input_finished {
 	global.input_result = global.current_user;

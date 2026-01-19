@@ -5,15 +5,16 @@ init_var();
 buttons = [
     {name:"File", items:["New Level", "Open Level", "Save Level", "Save Level As", "Import", "Exit"]},
     {name:"Edit", items:["Undo", "Redo", "Cut", "Copy", "Paste"]},
-    {name:"Project", items:["Run Level", "Debug Level", "Stop Level", "Export", "Set Name", "Set Theme"]},
+    {name:"Project", items:["Run Level", "Debug Level", "Stop Level", "Export"]},
+	{name:"View", items:["Setup", "Workspace"]},
     {name:"Help", items:["Report a Bug", "Visit Website", "Online Manual"]},
 ];
 
 // Button size and position
 button_width = 148;
 
-button_height = 24;
-toolbar_height = 24;
+button_height = 32;
+toolbar_height = 32;
 
 // Dropdown state
 active_button = -1; // no active dropdown

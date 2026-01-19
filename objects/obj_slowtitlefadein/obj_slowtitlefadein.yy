@@ -11,8 +11,8 @@
   "name":"obj_slowtitlefadein",
   "overriddenProperties":[],
   "parent":{
-    "name":"Boot",
-    "path":"folders/Objects/Boot.yy",
+    "name":"Legacy",
+    "path":"folders/Objects/Boot/Legacy.yy",
   },
   "parentObjectId":null,
   "persistent":false,

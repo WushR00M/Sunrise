@@ -33,6 +33,7 @@ menu_top = 64;
 
 	array_push(options, { type: "header", name: "General" });
 	array_push(options, make_toggle("Discord Rich Presence", "", true));
+	array_push(options, make_toggle("Legacy Title Sequence", "", false));
 	array_push(options, make_button("Credits", "", function(){}));
 
 update_item_rects();

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Backgrounds",
-    "path":"folders/Resources/Backgrounds.yy",
+    "name":"SplashScreen",
+    "path":"folders/Resources/Backgrounds/SplashScreen.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -11,8 +11,8 @@
   "name":"obj_start_game",
   "overriddenProperties":[],
   "parent":{
-    "name":"Boot",
-    "path":"folders/Objects/Boot.yy",
+    "name":"Legacy",
+    "path":"folders/Objects/Boot/Legacy.yy",
   },
   "parentObjectId":null,
   "persistent":false,

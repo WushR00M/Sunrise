@@ -114,6 +114,9 @@ try {
 							
 						} else if buttons[i].label == "Privacy Policy" {
 							
+						} else if buttons[i].label == "Restart Sunrise" {
+							audio_stop_all();
+							game_restart();
 						} else if buttons[i].label == "Login with GameJolt" or buttons[i].label == "Link Online" {
 							scr_show_input_dialog(
 								"Please enter your GameJolt username.",

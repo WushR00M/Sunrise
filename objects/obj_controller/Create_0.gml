@@ -4,7 +4,7 @@ prompt_special = "";
 prompt_triangle = "";
 
 index = 1;
-global.inputtype = false;
+global.inputtype = true;
 
 global.dialogup = false;
 

@@ -11,8 +11,8 @@
   "name":"obj_cautions_notices",
   "overriddenProperties":[],
   "parent":{
-    "name":"Boot",
-    "path":"folders/Objects/Boot.yy",
+    "name":"Splash",
+    "path":"folders/Objects/Boot/Splash.yy",
   },
   "parentObjectId":null,
   "persistent":false,
