@@ -35,5 +35,5 @@
     "path":"sprites/spr_colmask1/spr_colmask1.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
