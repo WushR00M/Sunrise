@@ -9,8 +9,8 @@
   "name":"obj_savefiles_import",
   "overriddenProperties":[],
   "parent":{
-    "name":"StoryMode",
-    "path":"folders/Objects/UI/StoryMode.yy",
+    "name":"Story",
+    "path":"folders/Objects/UI/PlayMode/Story.yy",
   },
   "parentObjectId":null,
   "persistent":false,

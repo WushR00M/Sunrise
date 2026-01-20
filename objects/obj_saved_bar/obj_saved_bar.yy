@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_next_page",
+  "%Name":"obj_saved_bar",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_next_page",
+  "name":"obj_saved_bar",
   "overriddenProperties":[],
   "parent":{
-    "name":"UniversalUI",
-    "path":"folders/Objects/UI/UniversalUI.yy",
+    "name":"SavedLevels",
+    "path":"folders/Objects/UI/PlayMode/SavedLevels.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_next_page",
-    "path":"sprites/spr_next_page/spr_next_page.yy",
+    "name":"spr_savedlevels_bar",
+    "path":"sprites/spr_savedlevels_bar/spr_savedlevels_bar.yy",
   },
   "spriteMaskId":null,
   "visible":true,

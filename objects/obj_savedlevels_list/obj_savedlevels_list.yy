@@ -1,19 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_savefiles_delete",
+  "%Name":"obj_savedlevels_list",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":11,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_savefiles_delete",
+  "name":"obj_savedlevels_list",
   "overriddenProperties":[],
   "parent":{
-    "name":"Story",
-    "path":"folders/Objects/UI/PlayMode/Story.yy",
+    "name":"SavedLevels",
+    "path":"folders/Objects/UI/PlayMode/SavedLevels.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -33,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_savefiles_delete",
-    "path":"sprites/spr_savefiles_delete/spr_savefiles_delete.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

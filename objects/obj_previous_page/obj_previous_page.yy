@@ -9,8 +9,8 @@
   "name":"obj_previous_page",
   "overriddenProperties":[],
   "parent":{
-    "name":"Options",
-    "path":"folders/Objects/UI/Options.yy",
+    "name":"UniversalUI",
+    "path":"folders/Objects/UI/UniversalUI.yy",
   },
   "parentObjectId":null,
   "persistent":false,
