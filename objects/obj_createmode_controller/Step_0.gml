@@ -17,9 +17,10 @@ if global.cmworkspace == true {
 				global.cmselection = 0;
 				if instance_exists(obj_lasso_tool)
 					instance_destroy(obj_lasso_tool);
-			if keyboard_check_pressed(ord("1")) {
+			
+			//if keyboard_check_pressed(ord("1")) {
 				global.cmmode = 1;
-			} else if keyboard_check_pressed(ord("2")) {
+			/*} else if keyboard_check_pressed(ord("2")) {
 				global.cmmode = 2;
 				if !instance_exists(obj_lasso_tool)
 					instance_create_layer(mouse_x, mouse_y, "UI", obj_lasso_tool);
@@ -28,6 +29,7 @@ if global.cmworkspace == true {
 				if instance_exists(obj_lasso_tool)
 					instance_destroy(obj_lasso_tool);
 			}
+			*/
 		} else {
 			if mouse_check_button_pressed(mb_right) && (device_mouse_y_to_gui(0) >= view_yport[0] - 256) {
 				global.cmselection = 0;

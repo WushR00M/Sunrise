@@ -103,21 +103,13 @@
 				else if selected_index == 2
 					global.cmselection = 5;
 				else if selected_index == 3
-					global.cmselection = 9;
-				else if selected_index == 4
-					global.cmselection = 9;
-				else if selected_index == 5
 					global.cmselection = 6;
-				else if selected_index == 6
+				else if selected_index == 4
 					global.cmselection = 7;
-				else if selected_index == 7
+				else if selected_index == 5
 					global.cmselection = 1;
-				else if selected_index == 8
-					global.cmselection = 0;
-				else if selected_index == 9
-					global.cmselection = 2;
-				else if selected_index == 10
-					global.cmselection = 3;
+				else if selected_index == 6
+					global.cmselection = 8;
 				
 				is_open = false;  // auto-close
 	            break;

@@ -6,7 +6,7 @@
   "name":"player_states",
   "parent":{
     "name":"PlayerStates",
-    "path":"folders/Player/PlayerStates.yy",
+    "path":"folders/PlayerScripts/PlayerStates.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

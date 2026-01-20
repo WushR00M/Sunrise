@@ -6,7 +6,7 @@
   "name":"player_state_normal",
   "parent":{
     "name":"Common",
-    "path":"folders/Player/PlayerStates/Common.yy",
+    "path":"folders/PlayerScripts/PlayerStates/Common.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

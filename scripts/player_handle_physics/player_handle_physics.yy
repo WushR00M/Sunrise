@@ -6,7 +6,7 @@
   "name":"player_handle_physics",
   "parent":{
     "name":"PlayerMovement",
-    "path":"folders/Player/PlayerMovement.yy",
+    "path":"folders/PlayerScripts/PlayerMovement.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

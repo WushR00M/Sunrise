@@ -19,14 +19,10 @@ icons = [
     { spr: spr_oblist_autoterrain, label: "Autoterrain"  },
     { spr: spr_oblist_bit, label: "Bit"  },
     { spr: spr_oblist_grass, label: "Grass Terrain"  },
-    { spr: spr_oblist_invisible, label: "Invisible Block" },
-    { spr: spr_oblist_layerswitch, label: "Layer Switch Trigger" },
     { spr: spr_oblist_mansion, label: "Mansion Terrain" },
     { spr: spr_oblist_metal, label: "Metal Terrain" },
     { spr: spr_oblist_solid, label: "Solid Block" },
-    { spr: spr_oblist_spawner, label: "Enemy Spawner" },
-    { spr: spr_oblist_stage, label: "Stagefloor Terrain"  },
-    { spr: spr_oblist_textdisplay, label: "Text Display"  }
+    { spr: spr_oblist_stage, label: "Stagefloor Terrain"  }
 ];
 
 // === ICON GRID CONFIG ===
@@ -38,9 +34,6 @@ hover_index    = -1;    // track which icon is hovered
 // === TOP BUTTONS ===
 btn_labels = [
     "Brush Mode",
-    "Draw Points",
-    "Lasso Mode",
-    "Debug"
 ];
 
 btn_exit_label = "Exit Menu";
