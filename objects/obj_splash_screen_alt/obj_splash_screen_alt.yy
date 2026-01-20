@@ -10,8 +10,8 @@
   "name":"obj_splash_screen_alt",
   "overriddenProperties":[],
   "parent":{
-    "name":"Legacy",
-    "path":"folders/Objects/Boot/Legacy.yy",
+    "name":"Splash",
+    "path":"folders/Objects/Boot/Splash.yy",
   },
   "parentObjectId":null,
   "persistent":false,

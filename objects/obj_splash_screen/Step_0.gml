@@ -40,12 +40,4 @@
 	else
 	{
 		instance_create_depth(0, 0, -1, obj_slowfade_routine);
-		
-		ease_timer[2] = approach(ease_timer[2], 1, 0.008);
-		
-		scale_x = 3 * easeInQuad(ease_timer[2]);
-		scale_y = 3 * easeInQuad(ease_timer[2]);
-		
-		scale_x += 1;	
-		scale_y += 1;
 	}

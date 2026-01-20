@@ -64,13 +64,10 @@ credit_text = [
 //"Backer - Username",
 //" ", 
 "© WushR00M Studios 2026",
-"Sunrise: Alpha v2026.4.0 - Codename Tahoe",
+"Sunrise: Alpha v2026.4.1",
 
 ];
 
 scroll_y = display_get_height(); // Starts below the screen
 line_height = 32;
 scroll_speed = 1;
-
-audio_stop_all();
-audio_play_sound(mus_a_millenium_to_a_dream, 0, true);

@@ -35,6 +35,8 @@ menu_top = 64;
 	array_push(options, make_toggle("Discord Rich Presence", "", true));
 	array_push(options, make_toggle("Legacy Title Sequence", "", false));
 	array_push(options, make_toggle("Confine Mouse to Window", "", false));
+	array_push(options, make_button("Terms of Service", "", function(){}));
+	array_push(options, make_button("Privacy Policy", "", function(){}));
 	array_push(options, make_button("Credits", "", function(){}));
 
 update_item_rects();

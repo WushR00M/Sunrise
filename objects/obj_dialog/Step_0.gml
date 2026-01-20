@@ -124,6 +124,10 @@ try {
 							
 						} else if buttons[i].label == "Privacy Policy" {
 							
+						} else if buttons[i].label == "Log Out" {
+							GameJolt_User_LogOut();
+							global.current_user = "Guest";
+							toast_create("SUCESS: Logged out from GameJolt successfully!", 2);
 						} else if buttons[i].label == "Restart Sunrise" {
 							audio_stop_all();
 							game_restart();

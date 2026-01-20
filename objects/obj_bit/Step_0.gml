@@ -6,6 +6,8 @@ if room == rm_create {
 		collect = false;
 	}
 } else {
-	if collect == true
+	if collect == true {
+		audio_play_sound(snd_musicnote_collect_plus1, 0, false);
 		instance_destroy();
+	}
 }

@@ -4,7 +4,6 @@ toast_dismiss();
 if global.current_user == "Guest" {
 	var btns = [
 		{label:"Login with GameJolt", action: dummyscript()},
-		{label:"Achievements", action: dummyscript()},
 		{label:"Exit",  action: dummyscript()},
 	];
 

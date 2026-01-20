@@ -31,6 +31,8 @@ for (var i = 0; i < array_length(options); i++) {
 				description_text = "Shows a display on your Discord profile of what you're doing on Sunrise currently";
 			else if item.name == "Credits"
 				description_text = "See who was behind this game!";
+			else if item.name == "Terms of Service" or item.name == "Privacy Policy"
+				description_text = "A bit of important information to know. This redirects you to the online site!";
 			else if item.name == "Legacy Title Sequence"
 				description_text = "Reverts the changes made to the Main Menu and Title Screen in v2026.4.0";
 			else if item.name == "Confine Mouse to Window"
@@ -181,7 +183,12 @@ scroll_y = lerp(scroll_y, scroll_target, 0.25);
 	            }
 	        }
 	    } else if (item.type == "button") {
-	        instance_create_depth(0, 0, -1, obj_slidein_routine_credits);
+			if item.name == "Credits"
+				instance_create_depth(0, 0, -1, obj_slidein_routine_credits);
+			else if item.name == "Terms of Service"
+				url_open("https://wushroomstudios.com/tos");
+			else if item.name == "Privacy Policy"
+				url_open("https://wushroomstudios.com/privacy");
 	    }
 	}
 
