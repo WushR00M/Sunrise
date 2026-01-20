@@ -54,6 +54,7 @@ function player_handle_hurt()
 		{
 			if room == rm_create {
 				global.cmplay = false;
+				instance_create_depth(0, 0, -1, obj_flashout_routine);
 			} else {
 				state = ST_KNOCKOUT;
 			

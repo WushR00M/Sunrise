@@ -264,6 +264,7 @@
     {"id":{"name":"obj_createmode_controller","path":"objects/obj_createmode_controller/obj_createmode_controller.yy",},},
     {"id":{"name":"obj_createslideout","path":"objects/obj_createslideout/obj_createslideout.yy",},},
     {"id":{"name":"obj_credits","path":"objects/obj_credits/obj_credits.yy",},},
+    {"id":{"name":"obj_death_point","path":"objects/obj_death_point/obj_death_point.yy",},},
     {"id":{"name":"obj_debris","path":"objects/obj_debris/obj_debris.yy",},},
     {"id":{"name":"obj_debug_teleport","path":"objects/obj_debug_teleport/obj_debug_teleport.yy",},},
     {"id":{"name":"obj_dialog","path":"objects/obj_dialog/obj_dialog.yy",},},

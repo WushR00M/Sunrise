@@ -203,6 +203,7 @@
     {"name":"obj_createmode_controller","order":4,"path":"objects/obj_createmode_controller/obj_createmode_controller.yy",},
     {"name":"obj_createslideout","order":1,"path":"objects/obj_createslideout/obj_createslideout.yy",},
     {"name":"obj_credits","order":19,"path":"objects/obj_credits/obj_credits.yy",},
+    {"name":"obj_death_point","order":15,"path":"objects/obj_death_point/obj_death_point.yy",},
     {"name":"obj_debug_teleport","order":13,"path":"objects/obj_debug_teleport/obj_debug_teleport.yy",},
     {"name":"obj_dialog","order":8,"path":"objects/obj_dialog/obj_dialog.yy",},
     {"name":"obj_dust","order":1,"path":"objects/obj_dust/obj_dust.yy",},
