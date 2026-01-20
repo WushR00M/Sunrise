@@ -33,6 +33,8 @@ for (var i = 0; i < array_length(options); i++) {
 				description_text = "See who was behind this game!";
 			else if item.name == "Legacy Title Sequence"
 				description_text = "Reverts the changes made to the Main Menu and Title Screen in v2026.4.0";
+			else if item.name == "Confine Mouse to Window"
+				description_text = "Locks the mouse from moving outside of the game window";
 			else
 				description_text = "Manage Sunrise's various Settings here!";
 			
@@ -166,6 +168,8 @@ scroll_y = lerp(scroll_y, scroll_target, 0.25);
 					{label:"Actually, nevermind!",  action: dummyscript()},
 				];
 				scr_show_dialog("This requires a game restart!", spr_dialog_warning, btns);
+			} else if (item.name == "Confine Mouse to Window") {
+				global.op_mouseconfine = !global.op_mouseconfine;
 			}
 	    } else if (item.type == "slider") {
 	        dragging_slider = hovered_item;

@@ -53,6 +53,7 @@ global.setup = true;
 	global.op_lightbar = false;
 	global.op_japcontrol = false;
 	global.op_legacytitle = false;
+	global.op_mouseconfine = false;
 
 global.object_timer = 0;
 global.window_width = window_get_width();
@@ -79,6 +80,11 @@ global.hud_number = font_add_sprite(spr_hudnumbers, ord("0"), false, 0);
 
 global.openfromfile = "";
 
+volume_slider_show = false;
+volume_slider_time = 5*60;
+volume_slider_y = view_hport[0] + 64;
+volume_slider_y2 = view_hport - 16;
+global.mastervol = 60;
 
 #macro WINDOW_WIDTH 1366
 #macro WINDOW_HEIGHT 768
@@ -88,7 +94,7 @@ init_var();
 // Finish Preloading + Load Options and Definitions
 
 audio_group_load(audiogroup_default);
-audio_master_gain(0.5);
+audio_master_gain(global.mastervol / 100);
 
 if os_type == os_android
 	global.mobile = true;
@@ -142,6 +148,7 @@ if file_exists("settings.ini") {
 	global.op_debughud = ini_read_real("options", "Show Debug HUD", 0);
 	global.op_fullscreen = ini_read_real("options", "Fullscreen Mode", 0);
 	global.op_borderless = ini_read_real("options", "Borderless Fullscreen", 0);
+	global.op_mouseconfine = ini_read_real("options", "Confine Mouse to Window", 0);
 	global.op_letterbox = ini_read_real("options", "Letterbox Mode", 0);
 	global.op_shaders = ini_read_real("options", "Shaders", 0);
 	global.op_colorblind = ini_read_real("options", "Colorblind Icons", 0);

@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"snd_cartoon_slap",
   "parent":{
-    "name":"gameplay",
-    "path":"folders/Resources/Sounds/Effects/gameplay.yy",
+    "name":"Gameplay",
+    "path":"folders/Resources/Sounds/Effects/Gameplay.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

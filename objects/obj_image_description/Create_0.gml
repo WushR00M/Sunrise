@@ -12,3 +12,6 @@ switch image {
 	case 3:
 		sprite_index = spr_ui_aboutcreate;
 }
+
+if global.op_legacytitle
+	audio_play_sound(mus_mainmenu, 0, true);

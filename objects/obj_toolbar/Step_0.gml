@@ -274,7 +274,7 @@ if (mouse_clicked) {
 					break;
                     case "Exit": 
 						var btns = [
-							{label:"Yes, save my changes!", action: dummyscript()},
+							{label:"Yes, save my work!", action: dummyscript()},
 							{label:"Forget my progress!",  action: dummyscript()},
 							{label:"Oops, continue editing!", action: dummyscript()}
 						];

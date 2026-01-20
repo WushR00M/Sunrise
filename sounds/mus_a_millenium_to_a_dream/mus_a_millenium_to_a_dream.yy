@@ -7,10 +7,10 @@
   },
   "bitDepth":1,
   "channelFormat":1,
-  "compression":0,
+  "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":165.0,
+  "duration":13.257143,
   "exportDir":"",
   "name":"mus_a_millenium_to_a_dream",
   "parent":{

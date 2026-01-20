@@ -1,8 +1,23 @@
 global.object_timer++;
 
 try {
+	if volume_slider_show {
+		if volume_slider_time > 0 {
+			volume_slider_y = lerp(volume_slider_y, view_hport[0] - 24, 0.1);
+			volume_slider_y2 = lerp(volume_slider_y2, view_hport[0] - 16, 0.1);
+			volume_slider_time--;
+		} else {
+			volume_slider_show = false;
+			volume_slider_time = 5*60;
+		}
+	} else {
+		volume_slider_y = lerp(volume_slider_y, view_hport[0] + 64, 0.1);
+		volume_slider_y2 = lerp(volume_slider_y2, view_hport[0] + 16, 0.1);
+	}
 	
-
+	if global.op_mouseconfine == true
+		window_mouse_set(clamp(window_mouse_get_x(), 0, window_get_width()), clamp(window_mouse_get_y(), 0, window_get_height()));	
+	
 	randomize();
 } catch(ex) {
 	toast_create("FAILURE: An internal error has occured. Error data has been dumped to a debug file, it's recommended you file a bug report.", 3);

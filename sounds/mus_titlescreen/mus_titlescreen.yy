@@ -6,11 +6,11 @@
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "channelFormat":0,
-  "compression":0,
+  "channelFormat":1,
+  "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":77.609795,
+  "duration":104.44898,
   "exportDir":"",
   "name":"mus_titlescreen",
   "parent":{
@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"mus_titlescreen.mp3",
-  "volume":0.8,
+  "volume":0.5,
 }

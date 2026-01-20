@@ -6,7 +6,7 @@
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "channelFormat":0,
+  "channelFormat":1,
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
@@ -15,7 +15,7 @@
   "name":"snd_musicnote_collect_plus3",
   "parent":{
     "name":"object",
-    "path":"folders/Resources/Sounds/Effects/gameplay/object.yy",
+    "path":"folders/Resources/Sounds/Effects/Gameplay/object.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

@@ -1,2 +1,5 @@
 hover = false;
-window_set_cursor(cr_default);
+if clicked == true {
+	click_end = false;
+	click_begin = false;
+}

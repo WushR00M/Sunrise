@@ -43,11 +43,9 @@
 		
 		ease_timer[2] = approach(ease_timer[2], 1, 0.008);
 		
-		scale_x = 6 * easeInQuad(ease_timer[2]);
-		scale_y = 6 * easeInQuad(ease_timer[2]);
+		scale_x = 3 * easeInQuad(ease_timer[2]);
+		scale_y = 3 * easeInQuad(ease_timer[2]);
 		
 		scale_x += 1;	
 		scale_y += 1;
-		
-		
 	}

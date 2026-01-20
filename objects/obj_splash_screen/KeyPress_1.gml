@@ -1,4 +1,6 @@
 audio_stop_all();
 video_close();
-instance_create_depth(0, 0, -1, obj_cautions_notices);
-instance_destroy();
+if global.op_legacytitle
+	room_goto(rm_intro_animation_legacy);
+else
+	room_goto(rm_intro_animation);

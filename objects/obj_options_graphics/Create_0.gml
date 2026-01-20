@@ -44,7 +44,7 @@ menu_top = 64;
 	array_push(options, make_toggle("Seasonal Title Screen Colors", "", true));
 	array_push(options, make_toggle("Web-Friendly Screenshot Format (JPEG)", "", false));
 	
-	array_push(options, { type: "header", name: "Debugging" });
+	array_push(options, { type: "header", name: "Debugging & Misc." });
 	array_push(options, make_toggle("Show FPS", "", false));
 
 update_item_rects();

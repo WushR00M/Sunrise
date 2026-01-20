@@ -75,10 +75,20 @@ try {
 		                if buttons[i].label == "Yes, save my changes!" {
 							save_level_as();
 							room_restart();
+						} else if buttons[i].label == "Yes, save my work!" {
+							save_level();
+							if global.op_legacytitle
+								instance_create_depth(0, 0, -1, obj_fadein_routine_mainmenu_legacy);
+							else
+								instance_create_depth(0, 0, -1, obj_fadein_routine_mainmenu);
 						} else if buttons[i].label == "Forget all of my progress!" {
 							room_restart();
 						} else if buttons[i].label == "Forget my progress!" {
-							instance_create_depth(0, 0, -1, obj_fadein_routine_mainmenu);
+							if global.op_legacytitle
+								instance_create_depth(0, 0, -1, obj_fadein_routine_mainmenu_legacy);
+							else
+								instance_create_depth(0, 0, -1, obj_fadein_routine_mainmenu);
+								
 							audio_stop_all();
 						} else if buttons[i].label == "Let me out already!" {
 							instance_create_layer(0, 0, "Instances_1", obj_fadeout_close_game_routine);

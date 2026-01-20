@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"vo_goodbye_blue3",
   "parent":{
-    "name":"goodbye",
-    "path":"folders/Resources/Sounds/Effects/goodbye.yy",
+    "name":"GoodbyeLines",
+    "path":"folders/Resources/Sounds/Effects/GoodbyeLines.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

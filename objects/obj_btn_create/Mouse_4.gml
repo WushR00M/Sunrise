@@ -1,3 +1,6 @@
-audio_play_sound(snd_select_yes, 0, false);
-global.cmname = "New Level"
-room_goto(rm_create);
+if !clicked {
+	audio_play_sound(snd_select_yes, 0, false);
+	click_begin = true;
+	click_end = false;
+	clicked = true;
+}
