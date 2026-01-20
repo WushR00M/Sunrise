@@ -32,8 +32,16 @@ scroll_area_height = 400; // Adjust as needed
 menu_top = 64;
 	
 	array_push(options, { type: "header", name: "Layout" });
-	array_push(options, make_toggle("Fullscreen Mode", "", false));
-	array_push(options, make_toggle("Borderless Fullscreen", "", true));
+	if window_get_fullscreen() == true
+		array_push(options, make_toggle("Fullscreen Mode", "", true));
+	else
+		array_push(options, make_toggle("Fullscreen Mode", "", false));
+		
+	if window_get_borderless_fullscreen() == true
+		array_push(options, make_toggle("Borderless Fullscreen", "", true));
+	else
+		array_push(options, make_toggle("Borderless Fullscreen", "", false));
+		
 	array_push(options, make_toggle("Letterbox Mode", "", false));
 	
 	array_push(options, { type: "header", name: "Details & Accessibility" });

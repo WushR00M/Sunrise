@@ -12,7 +12,7 @@ try {
 		}
 	} else {
 		volume_slider_y = lerp(volume_slider_y, view_hport[0] + 64, 0.1);
-		volume_slider_y2 = lerp(volume_slider_y2, view_hport[0] + 16, 0.1);
+		volume_slider_y2 = lerp(volume_slider_y2, view_hport[0] + 64, 0.1);
 	}
 	
 	if global.op_mouseconfine == true

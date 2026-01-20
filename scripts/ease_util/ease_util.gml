@@ -17,3 +17,11 @@ function easeOutElastic(val)
 	return power(2, -10 * val) * sin((val * 10 - 0.75) * c4) + 1;
 
 }
+
+function easeInOutQuad(val) {
+	var _t = val;
+	_t *= 2;
+	if (_t < 1) return 0.5 * _t * _t;
+	_t -= 1;
+	return -0.5 * (_t * (_t - 2) - 1);
+}

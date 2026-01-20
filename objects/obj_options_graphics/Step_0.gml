@@ -91,19 +91,8 @@ if global.inputtype == false {
 	        item.value = !item.value;
 	        save_options();
 			
-			if (item.name == global.opt_fullscreen && item.value) {
-				window_set_fullscreen(true);
-				save_options();
-			} else if (item.name == global.opt_fullscreen && !item.value) {
-				window_set_fullscreen(false);
-				save_options();
-			}
-			
-			if (item.name == global.opt_borderless && item.value) {
-				window_enable_borderless_fullscreen(true);
-				save_options();
-			} else if (item.name == global.opt_borderless && !item.value) {
-				window_enable_borderless_fullscreen(false);
+			if (item.name == "Web-Friendly Screenshot Format (JPEG)") {
+				global.op_jpegscreenie = true;
 				save_options();
 			}
 	    } else if (item.type == "slider") {
@@ -175,6 +164,19 @@ if (mouse_wheel_down()) {
 }
 scroll_target = clamp(scroll_target, 0, max_scroll);
 scroll_y = lerp(scroll_y, scroll_target, 0.25);
+
+for (var j = 0; j < array_length(options); j++) {
+    if (options[j].name == "Fullscreen Mode") {
+        var camShake = options[j];
+        if window_get_fullscreen() == true {
+	        camShake.value = true;
+	        options[j] = camShake;
+		} else {
+			camShake.value = false;
+	        options[j] = camShake;
+		}
+    }
+}
 
 // Handle mouse click on option items
 	if (mouse_check_button_pressed(mb_left) && hovered_item != -1) {
