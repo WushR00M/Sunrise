@@ -33,6 +33,8 @@ for (var i = 0; i < array_length(options); i++) {
 				description_text = "Resizes the window to fit the screen size instead of switching display modes";
 			else if item.name == "Letterbox Mode"
 				description_text = "When enabled, instead of stretching the game window to your screen size, will add bars to the sides of the game screen";
+			else if item.name == "x0.5 Windowed Scale"
+				description_text = "Halves the window's size to fit on smaller displays, like laptop screens. This does not apply in fullscreen mode."
 			else if item.name == "Shaders"
 				description_text = "Visual effects found within levels or various sections of the game, disable for a performance boost";
 			else if item.name == "Colorblind Icons"

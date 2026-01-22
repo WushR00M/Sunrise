@@ -1,3 +1,0 @@
-room_width = window_get_width();
-room_height = window_get_height();
-surface_resize(application_surface, window_get_width(), window_get_height());
