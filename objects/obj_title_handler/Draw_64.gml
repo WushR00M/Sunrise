@@ -4,9 +4,9 @@ draw_set_valign(fa_top);
 draw_set_halign(fa_left);
 
 draw_set_color(c_black);
-draw_text(17, 17, "Ver. 2026.4.1");
+draw_text(17, 17, "Ver. 2026.4.2");
 draw_set_color(c_white);
-draw_text(16, 16, "Ver. 2026.4.1");
+draw_text(16, 16, "Ver. 2026.4.2");
 
 draw_set_valign(fa_top);
 draw_set_halign(fa_right);

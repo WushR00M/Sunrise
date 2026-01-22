@@ -64,7 +64,7 @@ credit_text = [
 //"Backer - Username",
 //" ", 
 "© WushR00M Studios 2026",
-"Sunrise: Alpha v2026.4.1",
+"Sunrise: Alpha v2026.4.2",
 
 ];
 

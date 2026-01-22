@@ -5,7 +5,7 @@ init_var();
 buttons = [
     {name:"File", items:["New Level", "Open Level", "Save Level", "Save Level As", "Import", "Exit"]},
     {name:"Edit", items:["Undo", "Redo", "Cut", "Copy", "Paste"]},
-    {name:"Project", items:["Run Level", "Debug Level", "Stop Level", "Export"]},
+    {name:"Project", items:["Run Level", "Debug Level", "Quick Reset", "Stop Level", "Export"]},
 	{name:"View", items:["Setup", "Workspace"]},
     {name:"Help", items:["Report a Bug", "Visit Website", "Online Manual"]},
 ];

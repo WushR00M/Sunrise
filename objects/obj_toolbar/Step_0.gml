@@ -330,6 +330,20 @@ if (mouse_clicked) {
 						}
 					break;
 					
+					case "Quick Reset":
+						if global.cmworkspace {
+							if global.cmplay == true {
+								global.cmplay = false;
+								instance_create_depth(0, 0, -1, obj_flashout_routine);
+								instance_create_depth(0, 0, -1, obj_fadein_routine_titlecard_cm);
+							} else {
+								toast_create("No playtest is active currently!", 3);
+							}
+						} else {
+							toast_create("You can't playtest whilst in Setup view!", 3);	
+						}
+					break;
+					
 					case "Debug Level":
 						toast_create("This feature is coming soon, stand by!", 1);
 					break;
