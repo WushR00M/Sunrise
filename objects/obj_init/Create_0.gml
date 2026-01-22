@@ -54,6 +54,7 @@ global.setup = true;
 	global.op_japcontrol = false;
 	global.op_legacytitle = false;
 	global.op_mouseconfine = false;
+	global.op_halfsize = false;
 
 global.object_timer = 0;
 global.window_width = window_get_width();
@@ -164,6 +165,7 @@ if file_exists("settings.ini") {
 	global.op_buttonguide = ini_read_real("options", "In-Game Button Guide", 0);
 	global.op_lightbar = ini_read_real("options", "Custom Light Bar Color", 0);
 	global.op_japcontrol = ini_read_real("options", "Switch ACCEPT and CANCEL Mappings", 0);
+	global.op_halfsize = ini_read_real("options", "x0.5 Windowed Scale", 0);
 	
 	ui_english();
 	ini_close();

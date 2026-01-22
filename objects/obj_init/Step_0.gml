@@ -18,6 +18,11 @@ try {
 	if global.op_mouseconfine == true
 		window_mouse_set(clamp(window_mouse_get_x(), 0, window_get_width()), clamp(window_mouse_get_y(), 0, window_get_height()));	
 	
+	if !window_get_fullscreen() && global.op_halfsize
+		window_set_size(1366 / 2, 768 / 2);
+	else if !window_get_fullscreen() && !global.op_halfsize
+		window_set_size(1366, 768);
+	
 	randomize();
 } catch(ex) {
 	toast_create("FAILURE: An internal error has occured. Error data has been dumped to a debug file, it's recommended you file a bug report.", 3);

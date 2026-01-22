@@ -173,6 +173,8 @@ scroll_y = lerp(scroll_y, scroll_target, 0.25);
 			} else if (item.name == "Confine Mouse to Window") {
 				global.op_mouseconfine = !global.op_mouseconfine;
 			}
+			
+			rescan_options();
 	    } else if (item.type == "slider") {
 	        dragging_slider = hovered_item;
 	    } else if (item.type == "dropdown") {

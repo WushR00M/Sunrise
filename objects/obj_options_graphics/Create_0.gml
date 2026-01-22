@@ -43,6 +43,7 @@ menu_top = 64;
 		array_push(options, make_toggle("Borderless Fullscreen", "", false));
 		
 	array_push(options, make_toggle("Letterbox Mode", "", false));
+	array_push(options, make_toggle("x0.5 Windowed Scale", "", false));
 	
 	array_push(options, { type: "header", name: "Details & Accessibility" });
 	array_push(options, make_toggle("Shaders", "", true));

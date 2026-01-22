@@ -94,9 +94,13 @@ if global.inputtype == false {
 	        save_options();
 			
 			if (item.name == "Web-Friendly Screenshot Format (JPEG)") {
-				global.op_jpegscreenie = true;
+				global.op_jpegscreenie = !global.op_jpegscreenie;
+				save_options();
+			} else if (item.name == "x0.5 Windowed Size") {
+				global.op_halfsize = !global.op_halfsize;
 				save_options();
 			}
+			
 	    } else if (item.type == "slider") {
 	        dragging_slider = hovered_item;
 	    } else if (item.type == "dropdown") {
@@ -189,6 +193,15 @@ for (var j = 0; j < array_length(options); j++) {
 	        item.value = !item.value;
 	        save_options();
 			
+			if (item.name == "Web-Friendly Screenshot Format (JPEG)") {
+				global.op_jpegscreenie = !global.op_jpegscreenie;
+				save_options();
+			} else if (item.name == "x0.5 Windowed Size") {
+				global.op_halfsize = !global.op_halfsize;
+				save_options();
+			}
+			
+			
 			if (item.name == global.opt_fullscreen && item.value) {
 				window_set_fullscreen(true);
 				save_options();
@@ -211,6 +224,8 @@ for (var j = 0; j < array_length(options); j++) {
 				else
 					global.op_showfps = 0;
 			}
+			
+			rescan_options();
 	    } else if (item.type == "slider") {
 	        dragging_slider = hovered_item;
 	    } else if (item.type == "dropdown") {

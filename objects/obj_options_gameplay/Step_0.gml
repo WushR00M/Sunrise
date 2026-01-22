@@ -184,29 +184,7 @@ scroll_y = lerp(scroll_y, scroll_target, 0.25);
 	    if (item.type == "toggle") {
 	        item.value = !item.value;
 	        save_options();
-			
-			if (item.name == global.opt_fullscreen && item.value) {
-				window_set_fullscreen(true);
-				save_options();
-			} else if (item.name == global.opt_fullscreen && !item.value) {
-				window_set_fullscreen(false);
-				save_options();
-			}
-			
-			if (item.name == global.opt_borderless && item.value) {
-				window_enable_borderless_fullscreen(true);
-				save_options();
-			} else if (item.name == global.opt_borderless && !item.value) {
-				window_enable_borderless_fullscreen(false);
-				save_options();
-			}
-			
-			if (item.name == "Show FPS") {
-				if global.op_showfps == 0
-					global.op_showfps = 1;
-				else
-					global.op_showfps = 0;
-			}
+			rescan_options();
 	    } else if (item.type == "slider") {
 	        dragging_slider = hovered_item;
 	    } else if (item.type == "dropdown") {

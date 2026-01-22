@@ -717,6 +717,7 @@
     {"id":{"name":"lerp_angle","path":"scripts/lerp_angle/lerp_angle.yy",},},
     {"id":{"name":"math_approach","path":"scripts/math_approach/math_approach.yy",},},
     {"id":{"name":"on_screen","path":"scripts/on_screen/on_screen.yy",},},
+    {"id":{"name":"options_util","path":"scripts/options_util/options_util.yy",},},
     {"id":{"name":"palette_swap","path":"scripts/palette_swap/palette_swap.yy",},},
     {"id":{"name":"player_angle_detection","path":"scripts/player_angle_detection/player_angle_detection.yy",},},
     {"id":{"name":"player_animation_list","path":"scripts/player_animation_list/player_animation_list.yy",},},

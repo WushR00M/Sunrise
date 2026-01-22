@@ -606,6 +606,7 @@
     {"name":"lerp_angle","order":4,"path":"scripts/lerp_angle/lerp_angle.yy",},
     {"name":"math_approach","order":3,"path":"scripts/math_approach/math_approach.yy",},
     {"name":"on_screen","order":6,"path":"scripts/on_screen/on_screen.yy",},
+    {"name":"options_util","order":7,"path":"scripts/options_util/options_util.yy",},
     {"name":"palette_swap","order":16,"path":"scripts/palette_swap/palette_swap.yy",},
     {"name":"player_collide_object","order":1,"path":"scripts/player_collide_object/player_collide_object.yy",},
     {"name":"player_collision_functions","order":3,"path":"scripts/player_collision_functions/player_collision_functions.yy",},
