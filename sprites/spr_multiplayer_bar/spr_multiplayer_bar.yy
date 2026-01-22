@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"StoryMode",
-    "path":"folders/Resources/Sprites/UI/StoryMode.yy",
+    "name":"MultiplayerLounge",
+    "path":"folders/Resources/Sprites/UI/MultiplayerLounge.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

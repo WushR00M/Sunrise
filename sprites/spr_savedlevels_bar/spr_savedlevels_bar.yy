@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"StoryMode",
-    "path":"folders/Resources/Sprites/UI/StoryMode.yy",
+    "name":"SavedLevels",
+    "path":"folders/Resources/Sprites/UI/SavedLevels.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
