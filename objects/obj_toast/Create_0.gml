@@ -10,9 +10,9 @@ target_y = camera_get_view_height(0) - 100;
 x = view_wport[0] * 0.5;
 y = start_y;
 
-padding = 16;
+tpadding = 16;
 height = 32;
 slide_speed = 0.1;
 
 draw_set_font(Font7); // Use your custom font if needed
-width = string_width(text) + padding;
+width = string_width(text) + tpadding;

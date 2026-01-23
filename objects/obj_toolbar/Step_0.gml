@@ -58,7 +58,7 @@ if !global.inputtype {
             case "File":
                 switch (item_name) {
                     case "New Level":
-						show_debug_message("Action: New Level");
+						log("Action: New Level");
 						window_set_caption("Sunrise Editor - New Level");
 						if global.cmauto != "" {
 							room_restart();
@@ -73,18 +73,18 @@ if !global.inputtype {
 						}
 					break;
                     case "Open Level": 
-						show_debug_message("Action: Open Level"); 
+						log("Action: Open Level"); 
 						load_level();
 					break;
 					case "Save Level":
-						show_debug_message("Action: Save Level");
+						log("Action: Save Level");
 						if global.cmauto != ""
 							save_level();
 						else
 							save_level_as();
 					break;
 					case "Save Level as...": 
-						show_debug_message("Action: Save Level As"); 
+						log("Action: Save Level As"); 
 						save_level_as();
 					break;
                     case "Exit": 
@@ -101,11 +101,11 @@ if !global.inputtype {
 
             case "Edit":
                 switch (item_name) {
-                    case "Undo": show_debug_message("Action: Undo"); break;
-                    case "Redo": show_debug_message("Action: Redo"); break;
-                    case "Cut": show_debug_message("Action: Cut"); break;
-                    case "Copy": show_debug_message("Action: Copy"); break;
-                    case "Paste": show_debug_message("Action: Paste"); break;
+                    case "Undo": log("Action: Undo"); break;
+                    case "Redo": log("Action: Redo"); break;
+                    case "Cut": log("Action: Cut"); break;
+                    case "Copy": log("Action: Copy"); break;
+                    case "Paste": log("Action: Paste"); break;
                 }
 			break;
 			
@@ -118,7 +118,7 @@ if !global.inputtype {
 						);
 
 						if (global.input_result != "") {
-						    show_debug_message("User typed: " + global.input_result);
+						    log("User typed: " + global.input_result);
 							global.cmname = global.input_result;
 							global.input_result = "";
 						} else {
@@ -236,14 +236,14 @@ if (mouse_clicked) {
     // Check if clicked a dropdown item
     if (active_button >= 0 && mouse_over_item >= 0) {
         var item_name = buttons[active_button].items[mouse_over_item];
-        show_debug_message("Clicked: " + buttons[active_button].name + " -> " + item_name);
+        log("Editor - Toolbar clicked: " + buttons[active_button].name + " -> " + item_name);
 
         // Run actions depending on button and item
         switch (buttons[active_button].name) {
             case "File":
                 switch (item_name) {
                     case "New Level":
-						show_debug_message("Action: New Level");
+						log("Editor - Action: New Level");
 						window_set_caption("Sunrise Editor - New Level");
 						if global.cmauto != "" {
 							room_restart();
@@ -258,21 +258,22 @@ if (mouse_clicked) {
 						}
 					break;
                     case "Open Level": 
-						show_debug_message("Action: Open Level"); 
+						log("Editor - Action: Open Level"); 
 						load_level();
 					break;
 					case "Save Level":
-						show_debug_message("Action: Save Level");
+						log("Editor - Action: Save Level");
 						if global.cmauto != ""
 							save_level();
 						else
 							save_level_as();
 					break;
 					case "Save Level as...": 
-						show_debug_message("Action: Save Level As"); 
+						log("Editor - Action: Save Level As"); 
 						save_level_as();
 					break;
                     case "Exit": 
+						log("Editor - Action: Exit"); 
 						var btns = [
 							{label:"Yes, save my work!", action: dummyscript()},
 							{label:"Forget my progress!",  action: dummyscript()},
@@ -287,22 +288,27 @@ if (mouse_clicked) {
             case "Edit":
                 switch (item_name) {
                     case "Undo":
+						log("Editor - Action: Undo"); 
 						toast_create("This feature is coming soon, stand by!", 1);
 					break;
 					
                     case "Redo":
+						log("Editor - Action: Redo"); 
 						toast_create("This feature is coming soon, stand by!", 1);
 					break;
 					
                     case "Cut":
+						log("Editor - Action: Cut"); 
 						toast_create("This feature is coming soon, stand by!", 1);
 					break;
 					
                     case "Copy":
+						log("Editor - Action: Copy"); 
 						toast_create("This feature is coming soon, stand by!", 1);
 					break;
 					
                     case "Paste":
+						log("Editor - Action: Paste"); 
 						toast_create("This feature is coming soon, stand by!", 1);
 					break;
                 }
@@ -311,6 +317,7 @@ if (mouse_clicked) {
 			case "Project":
                 switch (item_name) {
 					case "Run Level":
+						log("Editor - Action: Run Level"); 
 						if global.cmworkspace
 							instance_create_depth(0, 0, -1, obj_fadein_routine_titlecard_cm);
 						else
@@ -318,6 +325,7 @@ if (mouse_clicked) {
 					break;
 					
 					case "Stop Level":
+						log("Editor - Action: Stop Level"); 
 						if global.cmworkspace {
 							if global.cmplay == true {
 								global.cmplay = false;
@@ -331,6 +339,7 @@ if (mouse_clicked) {
 					break;
 					
 					case "Quick Reset":
+						log("Editor - Action: Quick Reset"); 
 						if global.cmworkspace {
 							if global.cmplay == true {
 								global.cmplay = false;
@@ -345,10 +354,12 @@ if (mouse_clicked) {
 					break;
 					
 					case "Debug Level":
+						log("Editor - Action: Debug Level"); 
 						toast_create("This feature is coming soon, stand by!", 1);
 					break;
 					
 					case "Export":
+						log("Editor - Action: Export"); 
 						toast_create("This feature is coming soon, stand by!", 1);
 					break;
                 }
@@ -357,6 +368,7 @@ if (mouse_clicked) {
 			case "View":
 				switch (item_name) {
 					case "Setup":
+						log("Editor - Action: Setup View"); 
 						if global.cmworkspace {
 							global.cmworkspace = false;
 							global.cmsetup = true;
@@ -364,6 +376,7 @@ if (mouse_clicked) {
 					break;
 					
 					case "Workspace":
+						log("Editor - Action: Workspace View"); 
 						if global.cmsetup {
 							global.cmworkspace = true;
 							global.cmsetup = false;
@@ -375,16 +388,19 @@ if (mouse_clicked) {
             case "Help":
                 switch (item_name) {
                     case "Report a Bug":
+						log("Editor - Action: Report a Bug"); 
                         url_open("https://github.com/WushR00M/Sunrise/issues/new");
                         toast_create("You are being redirected. If the link doesn't open, check your firewall or browser settings!", 1);
                     break;
 					
 					case "Official Website":
+						log("Editor - Action: Visit Official Website"); 
                         url_open("https://wushroomstudios.com/");
                         toast_create("You are being redirected. If the link doesn't open, check your firewall or browser settings!", 1);
                     break;
 					
 					case "Online Manual":
+						log("Editor - Action: Visit Online Manual"); 
                         toast_create("This feature is coming soon, stand by!", 1);
                     break;
                 }
@@ -423,7 +439,7 @@ if autosave_time != 0 && do_autosave == true {
 if global.input_finished == true {
 	global.input_finished = false;
 	if (global.input_result != "") {
-		show_debug_message("User typed: " + global.input_result);
+		log("User typed: " + global.input_result);
 		global.cmname = global.input_result;
 		global.input_result = "";
 		window_set_caption("Sunrise Editor - " + global.cmname);

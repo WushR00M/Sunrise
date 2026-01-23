@@ -10,10 +10,10 @@ function ui_english() {
 		    }
 		    file_text_close(file_text);
 	    } else {
-			show_debug_message( "--------------------------------------------------------------");
-			show_debug_message( "A required datafile was not found! Sunrise will now close:");
-		    show_debug_message( "Missing file: \"UI_English.json\"" );
-		    show_debug_message( "--------------------------------------------------------------");
+			log( "--------------------------------------------------------------");
+			log( "A required datafile was not found! Sunrise will now close:");
+		    log( "Missing file: \"UI_English.json\"" );
+		    log( "--------------------------------------------------------------");
 
 		    if file_exists("crash.log") file_delete("crash.log");
 		    var _f = file_text_open_write("crash.log");
@@ -31,7 +31,7 @@ function ui_english() {
 	        for (var i = 0; i < array_length(keys); i++) {
 	            var key = keys[i];
 	            var value = variable_struct_get(ui_data, key);
-	            show_debug_message($"Key: {key}, Value: {string(value)}");
+	            log(string_concat("Localization Setup - ", $"Key: {key}, Value: {string(value)}"));
 				
 				variable_global_set(key, value);
 	        }
@@ -46,20 +46,20 @@ function ui_english() {
 			file_text_write_string(_f, "Sunrise: Error Report\n \n" + ex.longMessage);
 			file_text_close(_f);
 	
-			show_debug_message( "--------------------------------------------------------------");
-			show_debug_message( "An error has occured:" );
-		    show_debug_message( string(ex.longMessage) );
-		    show_debug_message( "--------------------------------------------------------------");	
+			log( "--------------------------------------------------------------");
+			log( "An error has occured:" );
+		    log( string(ex.longMessage) );
+		    log( "--------------------------------------------------------------");	
 		}
 		
 		// Accounts Data
 		
 		
 	} catch(ex) {
-		show_debug_message( "--------------------------------------------------------------");
-		show_debug_message( "A CRITICAL Error has occured, Sunrise will now close:" );
-	    show_debug_message( string(ex.longMessage) );
-	    show_debug_message( "--------------------------------------------------------------");
+		log( "--------------------------------------------------------------");
+		log( "A CRITICAL Error has occured, Sunrise will now close:" );
+	    log( string(ex.longMessage) );
+	    log( "--------------------------------------------------------------");
 
 	    if file_exists("crash.log") file_delete("crash.log");
 	    var _f = file_text_open_write("crash.log");
@@ -83,10 +83,10 @@ function ui_spanish() {
 		    }
 		    file_text_close(file_text);
 	    } else {
-			show_debug_message( "--------------------------------------------------------------");
-			show_debug_message( "A required datafile was not found! Sunrise will now close:");
-		    show_debug_message( "Missing file: \"UI_English.json\"" );
-		    show_debug_message( "--------------------------------------------------------------");
+			log( "--------------------------------------------------------------");
+			log( "A required datafile was not found! Sunrise will now close:");
+		    log( "Missing file: \"UI_English.json\"" );
+		    log( "--------------------------------------------------------------");
 
 		    if file_exists("crash.log") file_delete("crash.log");
 		    var _f = file_text_open_write("crash.log");
@@ -104,7 +104,7 @@ function ui_spanish() {
 	        for (var i = 0; i < array_length(keys); i++) {
 	            var key = keys[i];
 	            var value = variable_struct_get(ui_data, key);
-	            show_debug_message($"Key: {key}, Value: {string(value)}");
+	            log(string_concat("Localization Setup - ", $"Key: {key}, Value: {string(value)}"));
 				
 				variable_global_set(key, value);
 	        }
@@ -119,20 +119,20 @@ function ui_spanish() {
 			file_text_write_string(_f, "Sunrise: Error Report\n \n" + ex.longMessage);
 			file_text_close(_f);
 	
-			show_debug_message( "--------------------------------------------------------------");
-			show_debug_message( "An error has occured:" );
-		    show_debug_message( string(ex.longMessage) );
-		    show_debug_message( "--------------------------------------------------------------");	
+			log( "--------------------------------------------------------------");
+			log( "An error has occured:" );
+		    log( string(ex.longMessage) );
+		    log( "--------------------------------------------------------------");	
 		}
 		
 		// Accounts Data
 		
 		
 	} catch(ex) {
-		show_debug_message( "--------------------------------------------------------------");
-		show_debug_message( "A CRITICAL Error has occured, Sunrise will now close:" );
-	    show_debug_message( string(ex.longMessage) );
-	    show_debug_message( "--------------------------------------------------------------");
+		log( "--------------------------------------------------------------");
+		log( "A CRITICAL Error has occured, Sunrise will now close:" );
+	    log( string(ex.longMessage) );
+	    log( "--------------------------------------------------------------");
 
 	    if file_exists("crash.log") file_delete("crash.log");
 	    var _f = file_text_open_write("crash.log");

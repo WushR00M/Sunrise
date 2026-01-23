@@ -90,12 +90,21 @@ global.mastervol = 60;
 #macro WINDOW_WIDTH 1366
 #macro WINDOW_HEIGHT 768
 
+fpswarn = false;
+
 init_var();
 
 // Finish Preloading + Load Options and Definitions
 
 audio_group_load(audiogroup_default);
 audio_master_gain(global.mastervol / 100);
+
+if file_exists("latest_log.txt")
+	file_delete("latest_log.txt");
+	
+logfile = file_text_open_write("latest_log.txt");
+file_text_write_string(logfile, "Sunrise Client Log (latest): \n ");
+file_text_close(logfile); 
 
 if os_type == os_android
 	global.mobile = true;
@@ -178,14 +187,20 @@ if file_exists("settings.ini") {
 
 //////////////////////////////////////////////////////////////////////////
 
-if global.op_borderless == 1
-	window_enable_borderless_fullscreen(true)
+if global.op_borderless == 1 {
+	window_enable_borderless_fullscreen(true);
+	log("Borderless Fullscreen enabled");
+}
 	
-if global.op_fullscreen == 1
+if global.op_fullscreen == 1 {
 	window_set_fullscreen(true);
+	log("Fullscreen active");
+}
 	
-if global.op_discordrp == 1 && !global.mobile
+if global.op_discordrp == 1 && !global.mobile {
 	instance_create_depth(0, 0, -1, obj_richpres);
+	log("Starting Discord Rich Presence...");
+}
 
 //////////////////////////////////////////////////////////////////////////
 

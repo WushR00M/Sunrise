@@ -12,10 +12,7 @@ if (!np_initdiscord("1285814729398554634", true, np_steam_app_id_empty))
 	file_text_write_string(_f, "Sunrise: Error Report\n \n" + "Discord Rich Presence crashed or didn't work!");
 	file_text_close(_f);
 	
-	show_debug_message( "--------------------------------------------------------------");
-	show_debug_message( "An error has occured:" );
-    show_debug_message( "Unable to initialize Discord Rich Presence" );
-    show_debug_message( "--------------------------------------------------------------");
+    log( "Unable to initialize Discord Rich Presence" );
 }
 
 state = "";

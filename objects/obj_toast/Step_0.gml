@@ -26,4 +26,4 @@ else if (state == "slide_out") {
     }
 }
 
-width = string_width(text) + padding;
+width = string_width(text) + tpadding;

@@ -18,11 +18,22 @@ try {
 	if global.op_mouseconfine == true
 		window_mouse_set(clamp(window_mouse_get_x(), 0, window_get_width()), clamp(window_mouse_get_y(), 0, window_get_height()));	
 	
-	if !window_get_fullscreen() && global.op_halfsize
+	if !window_get_fullscreen() && global.op_halfsize {
 		window_set_size(1366 / 2, 768 / 2);
-	else if !window_get_fullscreen() && !global.op_halfsize
+		
+	} else if !window_get_fullscreen() && !global.op_halfsize {
 		window_set_size(1366, 768);
+		
+	}
 	
+	if (fps) < 30 && (fps > 5) {
+		if fpswarn == false {
+			log("PERFORMANCE WARNING: FPS is dangerously low! Low-end PC or memory leak? (reported: " + string(fps) + " FPS)");
+			fpswarn = true;
+		}
+	} else if (fps) > 30 {
+		fpswarn = false;	
+	}	
 	randomize();
 } catch(ex) {
 	toast_create("FAILURE: An internal error has occured. Error data has been dumped to a debug file, it's recommended you file a bug report.", 3);
@@ -32,23 +43,23 @@ try {
 	file_text_write_string(_f, "Sunrise: Error Report\n \n" + ex.longMessage);
 	file_text_close(_f);
 	
-	show_debug_message( "--------------------------------------------------------------");
-	show_debug_message( "An error has occured:" );
-    show_debug_message( string(ex.longMessage) );
-    show_debug_message( "--------------------------------------------------------------");
+	log( "--------------------------------------------------------------");
+	log( "An error has occured:" );
+    log( string(ex.longMessage) );
+    log( "--------------------------------------------------------------");
 }
 
 exception_unhandled_handler(function(ex)
 {
-    show_debug_message( "--------------------------------------------------------------");
-	show_debug_message( "A CRITICAL Error has occured, Sunrise will now close:" );
-    show_debug_message( string(ex.longMessage) );
-    show_debug_message( "--------------------------------------------------------------");
+    log( "--------------------------------------------------------------");
+	log( "A CRITICAL Error has occured, Sunrise will now close:" );
+    log( string(ex.longMessage) );
+    log( "--------------------------------------------------------------");
 
     if file_exists("crash.log") file_delete("crash.log");
     var _f = file_text_open_write("crash.log");
     file_text_write_string(_f, "Sunrise: CRITICAL Error Report" + "\n \n" + string(ex));
     file_text_close(_f);
 
-    show_message("A serious error has occured and Sunrise needs to close. We apologise for the inconvience! You can view the crash log in \"crash.txt\".");
+    show_message("A serious error has occured and Sunrise needs to close. We apologise for the inconvience!");
 });

@@ -102,7 +102,7 @@ function save_level_as() {
 			        ini_write_string(section, "name", obj_name);
 			        ini_write_real(section, "x", x);
 					ini_write_real(section, "y", y);
-			        show_debug_message("Object_" + string(index) + " saved");
+			        log("Object_" + string(index) + " saved");
 					index += 1;
 		        }
 	        }
@@ -131,18 +131,18 @@ function save_level_as() {
 		file_text_write_string(_f, "Sunrise: Error Report\n \n" + ex.longMessage);
 		file_text_close(_f);
 	
-		show_debug_message( "--------------------------------------------------------------");
-		show_debug_message( "An error has occured:" );
-	    show_debug_message( string(ex.longMessage) );
-	    show_debug_message( "--------------------------------------------------------------");
+		log( "--------------------------------------------------------------");
+		log( "An error has occured:" );
+	    log( string(ex.longMessage) );
+	    log( "--------------------------------------------------------------");
 	}
 
 	exception_unhandled_handler(function(ex)
 	{
-	    show_debug_message( "--------------------------------------------------------------");
-		show_debug_message( "A CRITICAL Error has occured, Sunrise will now close:" );
-	    show_debug_message( string(ex.longMessage) );
-	    show_debug_message( "--------------------------------------------------------------");
+	    log( "--------------------------------------------------------------");
+		log( "A CRITICAL Error has occured, Sunrise will now close:" );
+	    log( string(ex.longMessage) );
+	    log( "--------------------------------------------------------------");
 
 	    if file_exists("crash.log") file_delete("crash.log");
 	    var _f = file_text_open_write("crash.log");
@@ -172,7 +172,7 @@ function save_level() {
 		        ini_write_string(section, "name", obj_name);
 		        ini_write_real(section, "x", x);
 				ini_write_real(section, "y", y);
-		        show_debug_message("Object_" + string(index) + " saved");
+		        log("Object_" + string(index) + " saved");
 				index += 1;
 	        }
         }
@@ -197,18 +197,18 @@ function save_level() {
 		file_text_write_string(_f, "Sunrise: Error Report\n \n" + ex.longMessage);
 		file_text_close(_f);
 	
-		show_debug_message( "--------------------------------------------------------------");
-		show_debug_message( "An error has occured:" );
-	    show_debug_message( string(ex.longMessage) );
-	    show_debug_message( "--------------------------------------------------------------");
+		log( "--------------------------------------------------------------");
+		log( "An error has occured:" );
+	    log( string(ex.longMessage) );
+	    log( "--------------------------------------------------------------");
 	}
 
 	exception_unhandled_handler(function(ex)
 	{
-	    show_debug_message( "--------------------------------------------------------------");
-		show_debug_message( "A CRITICAL Error has occured, Sunrise will now close:" );
-	    show_debug_message( string(ex.longMessage) );
-	    show_debug_message( "--------------------------------------------------------------");
+	    log( "--------------------------------------------------------------");
+		log( "A CRITICAL Error has occured, Sunrise will now close:" );
+	    log( string(ex.longMessage) );
+	    log( "--------------------------------------------------------------");
 
 	    if file_exists("crash.log") file_delete("crash.log");
 	    var _f = file_text_open_write("crash.log");
@@ -238,7 +238,7 @@ function save_level_autosave() {
 		        ini_write_string(section, "name", obj_name);
 		        ini_write_real(section, "x", x);
 				ini_write_real(section, "y", y);
-		        show_debug_message("Object_" + string(index) + " saved");
+		        log("Object_" + string(index) + " saved");
 				index += 1;
 	        }
         }
@@ -263,18 +263,18 @@ function save_level_autosave() {
 		file_text_write_string(_f, "Sunrise: Error Report\n \n" + ex.longMessage);
 		file_text_close(_f);
 	
-		show_debug_message( "--------------------------------------------------------------");
-		show_debug_message( "An error has occured:" );
-	    show_debug_message( string(ex.longMessage) );
-	    show_debug_message( "--------------------------------------------------------------");
+		log( "--------------------------------------------------------------");
+		log( "An error has occured:" );
+	    log( string(ex.longMessage) );
+	    log( "--------------------------------------------------------------");
 	}
 
 	exception_unhandled_handler(function(ex)
 	{
-	    show_debug_message( "--------------------------------------------------------------");
-		show_debug_message( "A CRITICAL Error has occured, Sunrise will now close:" );
-	    show_debug_message( string(ex.longMessage) );
-	    show_debug_message( "--------------------------------------------------------------");
+	    log( "--------------------------------------------------------------");
+		log( "A CRITICAL Error has occured, Sunrise will now close:" );
+	    log( string(ex.longMessage) );
+	    log( "--------------------------------------------------------------");
 
 	    if file_exists("crash.log") file_delete("crash.log");
 	    var _f = file_text_open_write("crash.log");
@@ -357,18 +357,18 @@ function load_level() {
 		file_text_write_string(_f, "Sunrise: Error Report\n \n" + ex.longMessage);
 		file_text_close(_f);
 	
-		show_debug_message( "--------------------------------------------------------------");
-		show_debug_message( "An error has occured:" );
-	    show_debug_message( string(ex.longMessage) );
-	    show_debug_message( "--------------------------------------------------------------");
+		log( "--------------------------------------------------------------");
+		log( "An error has occured:" );
+	    log( string(ex.longMessage) );
+	    log( "--------------------------------------------------------------");
 	}
 
 	exception_unhandled_handler(function(ex)
 	{
-	    show_debug_message( "--------------------------------------------------------------");
-		show_debug_message( "A CRITICAL Error has occured, Sunrise will now close:" );
-	    show_debug_message( string(ex.longMessage) );
-	    show_debug_message( "--------------------------------------------------------------");
+	    log( "--------------------------------------------------------------");
+		log( "A CRITICAL Error has occured, Sunrise will now close:" );
+	    log( string(ex.longMessage) );
+	    log( "--------------------------------------------------------------");
 
 	    if file_exists("crash.log") file_delete("crash.log");
 	    var _f = file_text_open_write("crash.log");

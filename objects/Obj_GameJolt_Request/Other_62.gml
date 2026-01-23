@@ -1,5 +1,5 @@
 
-show_debug_message("ASYNC: " + json_encode(async_load))
+log("ASYNC: " + json_encode(async_load))
 
 // Early exit ids don't match
 if(async_load[?"id"] != request) exit;
@@ -20,7 +20,7 @@ if(_status == 0)
 			_struct = json_parse(_result);
 		}
 		catch (_ex) {
-			show_debug_message("[ERROR] Obj_GameJolt_Request, invalid json response");
+			log("[ERROR] Obj_GameJolt_Request, invalid json response");
 			exit;
 		}
 		

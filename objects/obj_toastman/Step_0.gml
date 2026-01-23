@@ -13,4 +13,5 @@ if (!instance_exists(current_toast) && global.toast_queue_size > 0) {
     current_toast = instance_create_depth(room_width / 2, room_height - 96, -1, obj_toast);
     current_toast.text = _text;
     current_toast.bg_color = _color;
+	log("Toast System - Created toast with: \"" + _text + "\" and type " + string(_color));
 }

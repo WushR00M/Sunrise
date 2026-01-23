@@ -1,5 +1,6 @@
 if !global.titleanim {
 	if file_exists(GameJolt_File_LogIn) {
+		log("GameJolt login from cache starting...");
 		GameJolt_User_LogIn_FromCache();
 		GameJolt_User_FetchMe(
 			function(_userData) {
@@ -10,9 +11,11 @@ if !global.titleanim {
 									
 				toast_dismiss();
 				toast_create("SUCCESS: Logged into GameJolt as: " + global.current_user, 1);	
+				log("GameJolt login success.");
 			}, function(message) {
+				log("GameJolt login success, but we weren't able to get any user information; Reported back: " + string(message));
 				toast_dismiss();
-				toast_create("NOTICE: Authorization with GameJolt succeeded, however we couldn't grab details, returned: " + string(message), 3);	
+				toast_create("NOTICE: Authorization with GameJolt succeeded, however we couldn't grab details.");	
 			}
 		);
 		global.online_user = true;

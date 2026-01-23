@@ -138,10 +138,10 @@ function __InputRegisterCollect()
             {
                 if (__INPUT_DEBUG_STEAM_INPUT)
                 {
-                    show_debug_message(__steamHandlesArray);
+                    log(__steamHandlesArray);
                 }
                 
-                __InputTrace("Steam handles changed, disconnecting all gamepads for reconnection");
+				__InputTrace("Steam handles changed, disconnecting all gamepads for reconnection");
                 
                 var _device = 0;
                 repeat(array_length(_gamepadArray))

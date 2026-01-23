@@ -10,5 +10,5 @@ function __InputTrace()
         ++_i;
     }
     
-    show_debug_message("Input: " + _string);
+    log("Input responded: " + _string);
 }
