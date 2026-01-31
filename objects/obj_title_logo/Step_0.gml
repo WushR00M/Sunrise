@@ -33,3 +33,5 @@ if slideout == true {
 		global.titleanim = true;	
 	}
 }
+
+x = room_width / 2;

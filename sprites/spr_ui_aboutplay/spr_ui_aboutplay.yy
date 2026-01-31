@@ -25,7 +25,7 @@
   ],
   "name":"spr_ui_aboutplay",
   "nineSlice":null,
-  "origin":0,
+  "origin":1,
   "parent":{
     "name":"MainMenu",
     "path":"folders/Resources/Sprites/UI/MainMenu.yy",
@@ -77,7 +77,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
+    "xorigin":683,
     "yorigin":0,
   },
   "swatchColours":null,

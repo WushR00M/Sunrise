@@ -78,7 +78,7 @@
 
 	draw_set_color(c_dkgray);
 	draw_set_halign(fa_right);
-	draw_text(1344, 16, "Editor v2026.4.2 (ALPHA): it's subject to change!");
+	draw_text(view_get_wport(view_current) - 32, 16, "Editor v2026.4.2 (ALPHA): it's subject to change!");
 
 	// Reset alignment
 	draw_set_halign(fa_left);

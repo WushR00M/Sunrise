@@ -11,3 +11,5 @@ function easeInOutQuad(_t) {
 	_t -= 1;
 	return -0.5 * (_t * (_t - 2) - 1);
 }
+
+x = room_width / 2;

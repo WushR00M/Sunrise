@@ -66,7 +66,7 @@ if !global.inputtype {
 							var btns = [
 							    {label:"Yes, save my changes!", action: dummyscript()},
 							    {label:"Forget all of my progress!",  action: dummyscript()},
-							    {label:"Oops, continue editing!", action: dummyscript()}
+							    {label:"Obops, continue editing!", action: dummyscript()}
 							];
 
 							scr_show_dialog("You have unsaved changes! Save?", spr_dialog_warning, btns);	
