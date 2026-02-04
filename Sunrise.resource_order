@@ -143,8 +143,6 @@
   ],
   "ResourceOrderSettings":[
     {"name":"GameJolt","order":1,"path":"extensions/GameJolt/GameJolt.yy",},
-    {"name":"gamepad_force_focus","order":6,"path":"extensions/gamepad_force_focus/gamepad_force_focus.yy",},
-    {"name":"window_command_hook","order":5,"path":"extensions/window_command_hook/window_command_hook.yy",},
     {"name":"window_frame","order":7,"path":"extensions/window_frame/window_frame.yy",},
     {"name":"Font2","order":1,"path":"fonts/Font2/Font2.yy",},
     {"name":"Font3","order":2,"path":"fonts/Font3/Font3.yy",},

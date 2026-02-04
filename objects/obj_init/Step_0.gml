@@ -28,6 +28,17 @@ try {
 		}
 	}
 	
+	if os_type == os_windows {
+		if window_command_check(window_command_close) {
+			var btns = [
+				{label:"Let me out already!", action: dummyscript()},
+				{label:"Actually, nevermind!",  action: dummyscript()},
+			];
+			
+			scr_show_dialog("Are you sure you want to exit Sunrise?\nSave your unsaved work if there is any!", spr_dialog_warning, btns);
+		}
+	}
+	
 	if (fps) < 30 && (fps > 5) {
 		if fpswarn == false {
 			log("PERFORMANCE WARNING: FPS is dangerously low! Low-end PC or memory leak? (reported: " + string(fps) + " FPS)");

@@ -108,6 +108,9 @@ file_text_close(logfile);
 
 if os_type == os_android
 	global.mobile = true;
+	
+if os_type == os_windows
+	window_command_hook(window_command_close);
 
 	if InputPlayerUsingGamepad(0) {
 		var _type = InputPlayerGetGamepadType(_player_index);
