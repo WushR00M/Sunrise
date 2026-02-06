@@ -37,6 +37,8 @@ for (var i = 0; i < array_length(options); i++) {
 				description_text = "Reverts the changes made to the Main Menu and Title Screen in v2026.4.0";
 			else if item.name == "Confine Mouse to Window"
 				description_text = "Locks the mouse from moving outside of the game window";
+			else if item.name == "Music Attenution"
+				description_text = "If music is playing via Steam, Sunrise's music will silence itself";
 			else
 				description_text = "Manage Sunrise's various Settings here!";
 			

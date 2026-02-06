@@ -31,6 +31,12 @@ padding_x = 48;
 scroll_area_height = 400; // Adjust as needed
 menu_top = 64;
 
+	if steam_initialised() {
+		array_push(options, { type: "header", name: "Steam" });
+	array_push(options, make_toggle("Music Attenution", "", false));
+	array_push(options, make_toggle("Music Attenution", "", false));
+	}
+
 	array_push(options, { type: "header", name: "General" });
 	array_push(options, make_toggle("Discord Rich Presence", "", true));
 	array_push(options, make_toggle("Legacy Title Sequence", "", false));

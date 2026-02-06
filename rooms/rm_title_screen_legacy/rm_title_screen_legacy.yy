@@ -25,8 +25,8 @@
   ],
   "name":"rm_title_screen_legacy",
   "parent":{
-    "name":"Menus",
-    "path":"folders/Screens/Menus.yy",
+    "name":"Legacy",
+    "path":"folders/Screens/Menus/Legacy.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

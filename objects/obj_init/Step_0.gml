@@ -1,6 +1,8 @@
 global.object_timer++;
 
 try {
+	steam_update();
+	
 	if volume_slider_show {
 		if volume_slider_time > 0 {
 			volume_slider_y = lerp(volume_slider_y, view_hport[0] - 24, 0.1);

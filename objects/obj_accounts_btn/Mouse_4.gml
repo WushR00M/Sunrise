@@ -9,10 +9,21 @@ if global.current_user == "Guest" {
 
 	scr_show_dialog("Manage your account:", spr_dialog_account, btns);
 } else {
-	var btns = [
-		{label:"Log Out", action: dummyscript()},
-		{label:"Exit",  action: dummyscript()},
-	];
+	if !steam_initialised() {
+		var btns = [
+			{label:"Log Out", action: dummyscript()},
+			{label:"Exit",  action: dummyscript()},
+		];
 
-	scr_show_dialog("Manage your account:", spr_dialog_account, btns);
+		scr_show_dialog("Manage your account:", spr_dialog_account, btns);
+	} else {
+		var btns = [
+			{label:"Open Community Hub", action: dummyscript()},
+			{label:"Open Friends List", action: dummyscript()},
+			{label:"Open Settings", action: dummyscript()},
+			{label:"Exit",  action: dummyscript()},
+		];
+
+		scr_show_dialog("Manage your account:", spr_dialog_account, btns);
+	}
 }

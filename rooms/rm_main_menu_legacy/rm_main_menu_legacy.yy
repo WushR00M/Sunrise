@@ -38,8 +38,8 @@
   ],
   "name":"rm_main_menu_legacy",
   "parent":{
-    "name":"Menus",
-    "path":"folders/Screens/Menus.yy",
+    "name":"Legacy",
+    "path":"folders/Screens/Menus/Legacy.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

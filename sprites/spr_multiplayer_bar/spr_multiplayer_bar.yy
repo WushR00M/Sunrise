@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"MultiplayerLounge",
-    "path":"folders/Resources/Sprites/UI/MultiplayerLounge.yy",
+    "name":"Multiplayer",
+    "path":"folders/Resources/Sprites/UI/Multiplayer.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

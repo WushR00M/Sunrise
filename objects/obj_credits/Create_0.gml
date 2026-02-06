@@ -12,6 +12,7 @@ credit_text = [
 "Development Tools - Julian Adams",
 "Development Tools - Alynne Keith",
 "Development Tools - stoozey",
+"Steamworks Development - YoYo Games",
 " ",
 "STORY",
 "Writing - WushR00M",

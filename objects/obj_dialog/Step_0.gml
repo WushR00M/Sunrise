@@ -124,12 +124,19 @@ try {
 							
 						} else if buttons[i].label == "Privacy Policy" {
 							
+						} else if buttons[i].label == "Open Community Hub" {
+							steam_activate_overlay(ov_community);
+						} else if buttons[i].label == "Open Friends List" {
+							steam_activate_overlay(ov_friends);
+						} else if buttons[i].label == "Open Settings" {
+							steam_activate_overlay(ov_settings);
 						} else if buttons[i].label == "Log Out" {
 							GameJolt_User_LogOut();
 							global.current_user = "Guest";
 							toast_create("SUCESS: Logged out from GameJolt successfully!", 2);
 						} else if buttons[i].label == "Restart Sunrise" {
 							audio_stop_all();
+							global.gamerestart = true;
 							game_restart();
 						} else if buttons[i].label == "Login with GameJolt" or buttons[i].label == "Link Online" {
 							scr_show_input_dialog(

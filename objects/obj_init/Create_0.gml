@@ -23,6 +23,7 @@ global.input_finished = false;
 global.controllertype = 0;
 global.current_user = "Guest";
 global.setup = true;
+global.gamerestart = false;
 
 	global.op_discordrp = false;
 	global.op_showhud = false;
@@ -55,6 +56,7 @@ global.setup = true;
 	global.op_legacytitle = false;
 	global.op_mouseconfine = false;
 	global.op_halfsize = false;
+	global.op_musicat = false;
 
 global.object_timer = 0;
 global.window_width = window_get_width();
@@ -178,6 +180,7 @@ if file_exists("settings.ini") {
 	global.op_lightbar = ini_read_real("options", "Custom Light Bar Color", 0);
 	global.op_japcontrol = ini_read_real("options", "Switch ACCEPT and CANCEL Mappings", 0);
 	global.op_halfsize = ini_read_real("options", "x0.5 Windowed Scale", 0);
+	global.op_musicat = ini_read_real("options", "Music Attenution", 0);
 	
 	ui_english();
 	ini_close();

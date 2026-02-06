@@ -44,8 +44,8 @@
   ],
   "name":"rm_unusedmenu1",
   "parent":{
-    "name":"Menus",
-    "path":"folders/Screens/Menus.yy",
+    "name":"Misc",
+    "path":"folders/Screens/Misc.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
