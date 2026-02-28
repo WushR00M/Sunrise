@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"vo_goodbye_blue6",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.5450567,
+  "exportDir":"",
+  "name":"vo_goodbye_blue6",
+  "parent":{
+    "name":"GoodbyeLines",
+    "path":"folders/Resources/Sounds/Effects/GoodbyeLines.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"vo_goodbye_blue6.wav",
+  "volume":1.0,
+}

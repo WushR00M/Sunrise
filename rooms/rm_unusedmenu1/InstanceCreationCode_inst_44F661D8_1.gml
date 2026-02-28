@@ -1,0 +1,1 @@
+saveslot = 2;

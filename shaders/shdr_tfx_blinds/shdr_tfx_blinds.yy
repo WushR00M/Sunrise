@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shdr_tfx_blinds",
+  "name":"shdr_tfx_blinds",
+  "parent":{
+    "name":"Shaders",
+    "path":"folders/Resources/Shaders.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

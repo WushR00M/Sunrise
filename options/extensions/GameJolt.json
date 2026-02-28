@@ -1,0 +1,15 @@
+{
+  "$GMExtensionConfigSet": "GMExtensionConfigSet",
+  "configurables": {
+    "3823a751-8a20-46aa-8b81-6124a3b2d0e0": {
+      "Default": {
+        "value": "f5d2bd93a66da604280fffd20dca4340"
+      }
+    },
+    "f5e635e3-466d-4326-9429-79fbfa0e08b8": {
+      "Default": {
+        "value": "1032739"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"player_debug",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"player_debug",
+  "parent":{
+    "name":"PlayerMovement",
+    "path":"folders/PlayerScripts/PlayerMovement.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"player_hitbox",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"player_hitbox",
+  "parent":{
+    "name":"PlayerMisc",
+    "path":"folders/PlayerScripts/PlayerMisc.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

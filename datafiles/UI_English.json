@@ -1,0 +1,66 @@
+    {
+			"opt_photosen": 		"Photosensitive Mode",
+			"opt_fullscreen": 		"Fullscreen Mode",
+			"opt_borderless": 		"Borderless Fullscreen",
+			"opt_voice": 			"Voice Chat",
+			"opt_autosave": 		"Autosaving",
+			"opt_discordrp": 		"Discord Rich Presence",
+			"opt_colorblind": 		"Colorblind Symbols",
+			"opt_videopb":			"Video Playback",
+			"opt_showfps": 			"Show FPS",
+			"opt_telemetry": 		"Telemetry",
+			"opt_errorrep": 		"Error Reporting",
+			
+			"btn_credits": 			"Credits",
+			"btn_language": 		"Set Game Language",
+			"btn_datapacks": 		"Datapacks",
+			"btn_clearsave": 		"Clear All Save Data",
+			
+			"header_pref":			"Preferences",
+			"header_system":		"System and Accessibility",
+			"header_main":			"Maintenance",
+			
+			"add_user": 			"Add User",
+			"guest_user": 			"Guest",
+			
+			"com_play":				"Play",
+			"com_startgame": 		"Start Game",
+			"com_select": 			"Select",
+			"com_back": 			"Back",
+			"com_navigation": 		"Navigation",
+			"com_on": 				"On",
+			"com_off": 				"Off",
+			"com_accept": 			"Accept",
+			"com_decline": 			"Decline",
+			"com_ok": 				"Ok",
+			"com_cancel": 			"Cancel",
+			"com_yes": 				"Yes",
+			"com_no": 				"No",
+			
+			"dialog_exitgame": 			"Are you sure you want to exit Sunrise?",
+			"dialog_exitgame_true": 	"Yes, let me out already!!",
+			"dialog_exitgame_false": 	"Just a little bit more...",
+			
+			"dialog_exitcreate": 		"You have unsaved changes! Continue?",
+			"dialog_exitcreate_true": 	"Save and Exit Level",
+			"dialog_exitcreate_nosv": 	"Continue without Saving",
+			"dialog_exitcreate_false": 	"Oops! Nevermind...",
+			
+			"dialog_renamelevel": 		"Enter a new name for your level...",
+			
+			"create_testlvl":		"Test Level",
+			"create_stoptest":		"Edit Level",
+			
+			"toolbar_newlvl":		"New Level",
+			"toolbar_openlvl":		"Open Level",
+			"toolbar_savelvl":		"Save Level",
+			"toolbar_savelvl_as":	"Save Level As...",
+			"toolbar_exit":			"Exit",
+			
+			"toolbar_file":			"File",
+			"toolbar_edit":			"Edit",
+			"toolbar_lvlopt":		"Level Options",
+
+			"loading_msg":			"Loading..."
+		
+    }

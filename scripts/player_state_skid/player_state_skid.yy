@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"player_state_skid",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"player_state_skid",
+  "parent":{
+    "name":"Common",
+    "path":"folders/PlayerScripts/PlayerStates/Common.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

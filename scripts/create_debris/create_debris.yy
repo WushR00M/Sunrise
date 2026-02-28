@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"create_debris",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"create_debris",
+  "parent":{
+    "name":"Engine",
+    "path":"folders/Engine.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

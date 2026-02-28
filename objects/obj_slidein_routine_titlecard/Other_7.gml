@@ -1,0 +1,1 @@
+titlecard_show(global.levelname);

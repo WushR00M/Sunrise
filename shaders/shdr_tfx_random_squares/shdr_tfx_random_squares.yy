@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shdr_tfx_random_squares",
+  "name":"shdr_tfx_random_squares",
+  "parent":{
+    "name":"Shaders",
+    "path":"folders/Resources/Shaders.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

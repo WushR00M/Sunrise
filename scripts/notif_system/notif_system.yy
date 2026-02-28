@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"notif_system",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"notif_system",
+  "parent":{
+    "name":"Systems",
+    "path":"folders/Systems.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"language_handler",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"language_handler",
+  "parent":{
+    "name":"Systems",
+    "path":"folders/Systems.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

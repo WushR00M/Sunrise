@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shdr_tfx_pixelize",
+  "name":"shdr_tfx_pixelize",
+  "parent":{
+    "name":"Shaders",
+    "path":"folders/Resources/Shaders.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

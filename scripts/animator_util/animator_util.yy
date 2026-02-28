@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"animator_util",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"animator_util",
+  "parent":{
+    "name":"Utils",
+    "path":"folders/Utils.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

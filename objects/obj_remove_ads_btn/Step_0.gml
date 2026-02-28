@@ -1,0 +1,1 @@
+x = lerp(x, room_width, 0.05);

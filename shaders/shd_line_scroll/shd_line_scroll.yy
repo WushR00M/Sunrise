@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shd_line_scroll",
+  "name":"shd_line_scroll",
+  "parent":{
+    "name":"Shaders",
+    "path":"folders/Resources/Shaders.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"get_angle",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"get_angle",
+  "parent":{
+    "name":"Engine",
+    "path":"folders/Engine.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
